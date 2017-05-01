@@ -2,9 +2,80 @@
  * Originally based on github.com/sjaakvandenberg/cleaver-dark
  */
 
+/* Custom fonts */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+  url('fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/Roboto/Roboto-Bold.ttf') format('truetype'),
+  url('fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/Roboto/Roboto-Italic.ttf') format('truetype'),
+  url('fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url('fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype'),
+  url('fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'SF Distant Galaxy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/sf_distant_galaxy/SF Distant Galaxy.ttf') format('truetype'),
+  url('fonts/sf_distant_galaxy/SF Distant Galaxy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Distant Galaxy';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/sf_distant_galaxy/SF Distant Galaxy.ttf') format('truetype'),
+  url('fonts/sf_distant_galaxy/SF Distant Galaxy.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'SF Distant Galaxy Outline';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype'),
+  url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Distant Galaxy Outline';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype'),
+  url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype');
+}
+
+
+
 /* Theme Styles */
 body {
-  font-family: 'Rubik', 'Helvetica', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 80%;
   text-align: center;
   overflow: hidden;
@@ -219,11 +290,11 @@ p {
 
 a {
   text-decoration: none;
-  color: #8d89f7;
+  color: #ffec51;
 }
 
 a:hover {
-  color: #706cf5;
+  color: #FFE300;
   text-decoration: underline;
 }
 
@@ -252,7 +323,7 @@ table th {
 .progress-bar {
   height: 3px;
   width: 0;
-  background-color: #987fff;
+  background-color: #ffec51;
   -webkit-transition: width .15s ease-out;
   -moz-transition: width .15s ease-out;
   -o-transition: width .15s ease-out;
@@ -521,7 +592,17 @@ pre .xml .cdata {
   background-image: url(images/github.svg);
 }
 
-/* Common slide contents */
+/* Specific to this slide deck? */
+
+h1, h2 {
+  font-family: 'SF Distant Galaxy', Helvetica, arial;
+}
+
+h1 {
+  color: #FFE300;
+  line-height: 1.1em;
+}
+
 .contact {
   margin-top: 3em;
 }
@@ -563,12 +644,6 @@ pre .xml .cdata {
 
 .img-with-header img {
   max-height: calc(100vh - 8em);
-}
-
-.slide .pun {
-  color: #c4c3f5;
-  font-size: 1em;
-  font-style: italic;
 }
 
 .strikethrough {
@@ -661,4 +736,13 @@ h2 + .quote {
 
 /* Slide specific styles here */
 
+#slide-1 h2 {
+  font-style: italic;
+}
 
+#slide-1 .caption {
+  margin-top: 2em;
+  font-size: 0.6em;
+  color: #555;
+  text-align: center;
+}

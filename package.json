@@ -16,7 +16,6 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
-    "bluetooth-hci-socket": "^0.5.1",
     "faye": "^1.2.3"
   }
 }

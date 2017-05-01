@@ -32,3 +32,16 @@ commands!
 ```
 ./deploy.sh
 ```
+
+
+## Image credits
+
+* Yoda 1 https://www.flickr.com/photos/pahudson/33528964984/
+* Yoda 2 https://www.flickr.com/photos/korymatthew/14211839966/
+* Jaba https://www.flickr.com/photos/workinpana/3097278513/
+* Stormtrooper 1 https://www.flickr.com/photos/evarinaldiphotography/6820622585/
+* Stormtrooper 2 https://www.flickr.com/photos/evilspoon63/15899035498/
+* Millennium Falcon https://www.flickr.com/photos/evilspoon63/15899075368/
+* Han https://www.flickr.com/photos/curacumba/8657373888/
+* Yoda and Luke https://www.flickr.com/photos/randar/34327307515
+* Boba Fett https://www.flickr.com/photos/48499944@N03/14578618566/
