@@ -290,7 +290,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #ffec51;
+  color: #fff17d;
 }
 
 a:hover {
@@ -594,8 +594,13 @@ pre .xml .cdata {
 
 /* Specific to this slide deck? */
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'SF Distant Galaxy', Helvetica, arial;
+}
+
+h3 {
+  font-family: 'SF Distant Galaxy Outline', Helvetica, arial;
 }
 
 h1 {
@@ -736,7 +741,8 @@ h2 + .quote {
 
 /* Slide specific styles here */
 
-#slide-1 {
+#slide-1,
+.thanks {
   overflow: hidden;
   perspective: 600px;
 }

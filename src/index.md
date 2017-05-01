@@ -21,7 +21,9 @@ controls: false
 
 # Thanks!
 
+### And May the Fourth be with you tomorrow
+
 <div class="social">
-  <h3 class="twitter">[@samsunginternet](https://twitter.com/samsunginternet)</h3>
-  <h3 class="github">[github.com/samsunginternet](https://github.com/SamsungInternet/)</h3>
+  <h4 class="twitter">[@samsunginternet](https://twitter.com/samsunginternet)</h3>
+  <h4 class="github">[github.com/samsunginternet](https://github.com/SamsungInternet/)</h3>
 </div>
