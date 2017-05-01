@@ -282,8 +282,8 @@ li code {
 }
 
 blockquote {
-  font-style: italic;
-  font-size: 1.75em;
+  font-size: 1.9em;
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
