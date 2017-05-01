@@ -776,6 +776,21 @@ h2 + .quote {
   box-shadow: inset 0 -3em 8em 4em #000; /* Extra vignette */
 }
 
+.social h4 a {
+  padding-left: 1.5em;
+  background-size: 1em 1em;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.social .twitter a {
+  background-image: url(images/twitter.png);
+}
+
+.social .github a {
+  background-image: url(images/github.png);
+}
+
 /* Slide specific styles here */
 
 #slide-1,
