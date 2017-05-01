@@ -4,15 +4,86 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#987fff">
-  <title>WebVR @ Samsung</title>
+  <title>The Browser Strikes Back</title>
   <style type="text/css">
     /*
  * Originally based on github.com/sjaakvandenberg/cleaver-dark
  */
 
+/* Custom fonts */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+  url('fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/Roboto/Roboto-Bold.ttf') format('truetype'),
+  url('fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url('fonts/Roboto/Roboto-Italic.ttf') format('truetype'),
+  url('fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url('fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype'),
+  url('fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'SF Distant Galaxy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/sf_distant_galaxy/SF Distant Galaxy.ttf') format('truetype'),
+  url('fonts/sf_distant_galaxy/SF Distant Galaxy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Distant Galaxy';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/sf_distant_galaxy/SF Distant Galaxy.ttf') format('truetype'),
+  url('fonts/sf_distant_galaxy/SF Distant Galaxy.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'SF Distant Galaxy Outline';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype'),
+  url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Distant Galaxy Outline';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype'),
+  url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype');
+}
+
+
+
 /* Theme Styles */
 body {
-  font-family: 'Rubik', 'Helvetica', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 80%;
   text-align: center;
   overflow: hidden;
@@ -227,11 +298,11 @@ p {
 
 a {
   text-decoration: none;
-  color: #8d89f7;
+  color: #ffec51;
 }
 
 a:hover {
-  color: #706cf5;
+  color: #FFE300;
   text-decoration: underline;
 }
 
@@ -260,7 +331,7 @@ table th {
 .progress-bar {
   height: 3px;
   width: 0;
-  background-color: #987fff;
+  background-color: #ffec51;
   -webkit-transition: width .15s ease-out;
   -moz-transition: width .15s ease-out;
   -o-transition: width .15s ease-out;
@@ -529,7 +600,17 @@ pre .xml .cdata {
   background-image: url(images/github.svg);
 }
 
-/* Common slide contents */
+/* Specific to this slide deck? */
+
+h1, h2 {
+  font-family: 'SF Distant Galaxy', Helvetica, arial;
+}
+
+h1 {
+  color: #FFE300;
+  line-height: 1.1em;
+}
+
 .contact {
   margin-top: 3em;
 }
@@ -571,12 +652,6 @@ pre .xml .cdata {
 
 .img-with-header img {
   max-height: calc(100vh - 8em);
-}
-
-.slide .pun {
-  color: #c4c3f5;
-  font-size: 1em;
-  font-style: italic;
 }
 
 .strikethrough {
@@ -659,32 +734,6 @@ h2 + .quote {
   z-index: 1;
 }
 
-/* Slide specific styles here */
-
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-#slide-1 h2 {
-  font-size: 1.5em;
-}
-
-#slide-1 h2.emoji {
-  font-size: 3em;
-}
-
-#slide-1 h3 {
-  font-size: 1.2em;
-}
-
-#slide-1 .contact {
-  margin-top: 8em;
-}
-
 .slide.extra-vignette-1:before {
   box-shadow: inset 0 -2em 5em 2em #000; /* Extra vignette */
 }
@@ -693,110 +742,18 @@ h2 + .quote {
   box-shadow: inset 0 -3em 8em 4em #000; /* Extra vignette */
 }
 
-.slide.intro:before {
-  background-image: url(images/samsung-devrel-team3.jpg);
+/* Slide specific styles here */
+
+#slide-1 h2 {
+  font-style: italic;
 }
 
-.slide.thanks:before {
-  background-image: url(images/samsung-devrel-team2.jpg);
+#slide-1 .caption {
+  margin-top: 2em;
+  font-size: 0.6em;
+  color: #555;
+  text-align: center;
 }
-
-.slide.pwacman:before {
-  background-image: url(images/pwacman.jpg);
-}
-
-.slide.aframe-racer:before {
-  background-image: url(images/aframe-racer.jpg);
-}
-
-.slide.bubble:before {
-  background-image: url(images/bubble.jpg);
-}
-
-.slide.bubble-hollywood:before {
-  background-image: url(images/bubble-hollywood.jpg);
-}
-
-.slide.word-drop:before {
-  background-image: url(images/word-drop.jpg);
-}
-
-.slide.metaverse-audience:before {
-  background-image: url(images/metaverse-audience.jpg);
-}
-
-.slide.within:before {
-  background-image: url(images/within.png);
-}
-
-.slide.playcanvas-lab:before {
-  background-image: url(images/playcanvas-webvr-lab.png);
-}
-
-.slide.pva:before {
-  background-image: url(images/pva-glue.jpg);
-}
-
-.slide.gamepad-support:before {
-  background-color: #eee;
-  box-shadow: inset 0 -0.5em 5em 1em #aaa; /* Vignette */
-}
-
-.slide.controller:before {
-  background-image: url(images/gear-vr_naturally_hand.png);
-  background-position: center right;
-}
-
-.slide.man-o-war:before {
-  background-image: url(images/playcanvas-man-o-war.jpg);
-}
-
-.slide.iframe:before {
-  background-color: #000;
-}
-
-.browser-support p img {
-  max-width: 11%;
-  padding: 0 1vw;
-}
-
-.thanks {
-  text-align: right;
-}
-
-.thanks h1 {
-  transform: none;
-  margin-right: 2vw;
-}
-
-.thanks h3 {
-  margin-bottom: 0;
-  margin-right: 2vw;
-}
-
-.thanks h3:last-child {
-  margin-bottom: 2em;
-}
-
-.social h3 a {
-  padding-left: 1.5em;
-  background-size: 1em 1em;
-  background-repeat: no-repeat;
-  background-position: center left;
-}
-
-.social .twitter a {
-  background-image: url(images/twitter.png);
-}
-
-.social .github a {
-  background-image: url(images/github.png);
-}
-
-.video-360 img {
-  max-height: 50vh;
-}
-
   </style>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
   <link rel="icon" href="images/favicon.png" type=”image/png">
@@ -808,138 +765,17 @@ h2 + .quote {
   </div>
 
   <div class="slide  bg-fade-grey intro" id="slide-1">
-    <section class="slide-content"><h1 id="webvr-samsung">WebVR @ Samsung</h1>
+    <section class="slide-content"><h1 id="the-browser-br-strikes-back">The Browser <br> Strikes Back</h1>
+<h2 id="the-future-of-the-web-episode-2-">The Future Of The Web, Episode 2*</h2>
 <div class="contact">
   <p>Peter O&#39;Shaughnessy</p>
   <p><a href="https://twitter.com/poshaughnessy">@poshaughnessy</a></p>
   <p><a href="https://twitter.com/samsunginternet">@samsunginternet</a></p>
-</div></section>
+</div>
+
+<div class="caption">*I know. It should probably be Episode 5. But it&#39;s not. Please don&#39;t email.</div></section>
   </div>
-  <div class="slide hidden  align-top img-with-caption" id="slide-2">
-    <section class="slide-content"><p><img src="images/samsung-internet-beta-phone-blur.png" alt="Samsung Internet icon on homescreen"></p>
-<p><a href="http://bit.ly/samsung-internet-open-beta">Samsung Internet for Android</a></p>
-</section>
-  </div>
-  <div class="slide hidden  img-with-caption" id="slide-3">
-    <section class="slide-content"><p><img src="images/gear-vr-browser-launch2.jpg" alt="Samsung Internet for Gear VR launch"></p>
-<p><a href="https://news.samsung.com/global/samsung-launches-optimized-web-browser-for-gear-vr">Samsung Internet for Gear VR launched, Dec 2015</a></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-4">
-    <section class="slide-content"><video src="videos/si4gvr-meetup.mp4" controls></video></section>
-  </div>
-  <div class="slide hidden  img-with-caption" id="slide-5">
-    <section class="slide-content"><p><img src="images/gear-vr-webvr-support.jpg" alt="Samsung Internet for Gear VR WebVR support"></p>
-<p><a href="https://www.slashgear.com/samsung-internet-browser-for-gear-vr-now-supports-webvr-04434526/">WebVR support added, Apr 2016</a></p>
-<!-- NB. Samsung Internet for Gear VR - WebVR not enabled by default but prompts you to enable it --></section>
-  </div>
-  <div class="slide hidden  " id="slide-6">
-    <section class="slide-content"><h3 id="-the-best-way-to-reach-the-widest-number-of-customers-in-vr-will-be-via-the-web-">“The best way to reach the widest number of customers in VR will be via the web.”</h3>
-<div class="caption">Brandon Jones, Google</div></section>
-  </div>
-  <div class="slide hidden  browser-support" id="slide-7">
-    <section class="slide-content"><p><img src="images/chrome-android.png" alt="Chrome for Android"> <img src="images/chromium.png" alt="Chromium"> <img src="images/firefox-nightly.png" alt="Firefox Nightly"> <img src="images/servo.png" alt="Servo"> <img src="images/sbrowser5.0.png" alt="Samsung Internet"> <img src="images/edge.png" alt="Edge"> <img src="images/carmel.png" alt="Carmel"> </p>
-<p><a href="https://webvr.rocks/">webvr.rocks</a></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-8">
-    <section class="slide-content"><h1 id="examples">Examples</h1>
-</section>
-  </div>
-  <div class="slide hidden  pwacman valign-bottom extra-vignette-1" id="slide-9">
-    <section class="slide-content"><p><a href="https://samsunginter.net/pwacman">samsunginter.net/pwacman</a></p>
-</section>
-  </div>
-  <div class="slide hidden  aframe-racer valign-bottom extra-vignette-1" id="slide-10">
-    <section class="slide-content"><p><a href="https://samsunginter.net/a-frame-demos/racer/">samsunginter.net/a-frame-demos/racer/</a></p>
-</section>
-  </div>
-  <div class="slide hidden  bubble valign-bottom extra-vignette-2" id="slide-11">
-    <section class="slide-content"><p><a href="https://samsunginter.net/bubble/">samsunginter.net/bubble/</a></p>
-</section>
-  </div>
-  <div class="slide hidden  bubble-hollywood valign-bottom extra-vignette-2" id="slide-12">
-    <section class="slide-content"><p><a href="http://bit.ly/hollywood-bubble">bit.ly/hollywood-bubble</a></p>
-</section>
-  </div>
-  <div class="slide hidden  word-drop valign-bottom extra-vignette-1" id="slide-13">
-    <section class="slide-content"><p><a href="https://samsunginter.net/word-drop/">samsunginter.net/word-drop/</a></p>
-</section>
-  </div>
-  <div class="slide hidden  metaverse-audience valign-bottom extra-vignette-2" id="slide-14">
-    <section class="slide-content"><p><a href="https://metaverse.samsunginter.net/">metaverse.samsunginter.net</a></p>
-</section>
-  </div>
-  <div class="slide hidden  within valign-bottom extra-vignette-2" id="slide-15">
-    <section class="slide-content"><p><a href="https://vr.with.in">vr.with.in</a></p>
-</section>
-  </div>
-  <div class="slide hidden  playcanvas-lab valign-bottom extra-vignette-1" id="slide-16">
-    <section class="slide-content"><p><a href="https://webvr.playcanvas.com">webvr.playcanvas.com</a></p>
-</section>
-  </div>
-  <div class="slide hidden  pva bg-fade-less" id="slide-17">
-    <section class="slide-content"><h1 id="progressive-vr-apps">Progressive VR Apps</h1>
-<div class="credit"><a href="https://commons.wikimedia.org/wiki/File:Pva_wood_glue.jpg">Victuallers</a></div></section>
-  </div>
-  <div class="slide hidden  img-with-header" id="slide-18">
-    <section class="slide-content"><h3 id="-continuous-browsing-experiences-">&quot;Continuous browsing experiences&quot;</h3>
-<p><img src="images/continuous-browsing-experience.png" alt="Continuous browsing experiences"></p>
-</section>
-  </div>
-  <div class="slide hidden  img-with-header" id="slide-19">
-    <section class="slide-content"><h3 id="responsive-design">Responsive Design</h3>
-<p><img src="images/responsive-design.png" alt="Responsive design"></p>
-<p><em>Assume small screen.</em></p>
-<p><em>If &gt; x pixels, apply desktop styles.</em></p>
-</section>
-  </div>
-  <div class="slide hidden  img-with-header" id="slide-20">
-    <section class="slide-content"><h3 id="responsive-experience">Responsive Experience</h3>
-<p><img src="images/responsive-experiences.png" alt="Responsive experiences"></p>
-<p><em>Assume no VR headset.</em></p>
-<p><em>If WebVR/polyfill &amp; user taps button, start VR experience.</em></p>
-</section>
-  </div>
-  <div class="slide hidden  img-with-header" id="slide-21">
-    <section class="slide-content"><h3 id="responsive-fidelity">Responsive Fidelity</h3>
-<p><img src="images/responsive-fidelity.png" alt="Responsive fidelity"></p>
-<p><em>Assume low-powered.</em> </p>
-<p><em>If smooth frame rate, download higher-res assets.</em></p>
-</section>
-  </div>
-  <div class="slide hidden  img-with-caption" id="slide-22">
-    <section class="slide-content"><p><img src="images/playcanvas-man-o-war.jpg" alt="PlayCanvas Man-O-War"></p>
-<p><a href="http://bit.ly/playcanvas-gun-project">bit.ly/playcanvas-gun-project</a></p>
-</section>
-  </div>
-  <div class="slide hidden  video-360" id="slide-23">
-    <section class="slide-content"><p><img src="images/360-video.png" alt="360 video"></p>
-<pre><code>&lt;video controls src=&quot;360-timelapse.mp4&quot; 
-       type=&quot;video/mp4; dimension=360;&quot;&gt;&lt;/video&gt;</code></pre>
-<p><a href="https://samsunginter.net/docs/video-360">samsunginter.net/docs/video-360</a></p>
-</section>
-  </div>
-  <div class="slide hidden  iframe" id="slide-24">
-    <section class="slide-content"><iframe width="100%" height="90%" style="margin-top:5vh" src="https://www.youtube.com/embed/9NefsqY3uGw" frameborder="0" allowfullscreen></iframe></section>
-  </div>
-  <div class="slide hidden  " id="slide-25">
-    <section class="slide-content"><pre><code class="lang-javascript"><span class="hljs-built_in">window</span>.SamsungChangeSky({ 
-  sphere: <span class="hljs-string">'http://site.com/blue-sky.jpg'</span> 
-});</code></pre>
-<p><a href="https://samsunginter.net/docs/skybox">samsunginter.net/docs/skybox</a></p>
-</section>
-  </div>
-  <div class="slide hidden  img-with-caption gamepad-support" id="slide-26">
-    <section class="slide-content"><p><img src="images/gamepad-support.png" alt="Gamepad API support"></p>
-<p><a href="bit.ly/beta-gamepad-support">bit.ly/beta-gamepad-support</a></p>
-</section>
-  </div>
-  <div class="slide hidden  controller valign-bottom" id="slide-27">
-    <section class="slide-content"><p><a href="http://www.samsung.com/global/galaxy/gear-vr/#controller">samsung.com/global/galaxy/gear-vr/#controller</a></p>
-</section>
-  </div>
-  <div class="slide hidden  bg-fade-less-grey thanks valign-bottom" id="slide-28">
+  <div class="slide hidden  bg-fade-less-grey thanks valign-bottom" id="slide-2">
     <section class="slide-content"><h1 id="thanks-">Thanks!</h1>
 <div class="social">
   <h3 class="twitter"><a href="https://twitter.com/samsunginternet">@samsunginternet</a></h3>
