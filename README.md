@@ -1,6 +1,6 @@
-# "WebVR and Samsung" - WebVR/AR Meetup London, April 2017
+# "The Browser Strikes Back!: The Future Of The Web, Episode 2" - JS Oxford, May 2017
 
-My slides for [WebVR/AR Meetup London, April 2017](https://www.meetup.com/Web-VR-AR/events/238266181/). 
+My slides for [JS Oxford, May 2017](https://www.meetup.com/JSOxford/events/239534664/). 
 
 ## To view the slides
 
