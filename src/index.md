@@ -99,7 +99,15 @@ controls: false
 
 --
 
-PWA results
+## TODO browser diversity - "rebellion" community
+
+--
+
+## TODO PWA results
+
+--
+
+[![Twitter moved to a PWA](images/twitter-pwa.jpg)](https://twitter.com/necolas/status/829128165314306048)
 
 -- millennium-falcon bg-fade quote
 
@@ -111,15 +119,47 @@ PWA results
 
 ## &ldquo;Stay sharp. There's two more coming in.&rdquo;
 
+--
+
+## TODO web payments
+
 -- yoda1 bg-fade
 
-## 
+## &ldquo;Always in motion is the future.&rdquo;
+
+--
+
+## TODO physical web
+
+--
+
+## TODO web bluetooth
+ 
+--
+
+## TODO webvr
+
+--
+
+## TODO 'browser' doesn't fit anymore
+
+-- 
+
+## TODO web & native merging
+
+--
+
+## TODO AI browser
+
+--
+
+## TODO AI + VR
 
 -- thanks starfield
 
 # Thanks!
 
-### And May the Fourth be with you tomorrow
+### And May the Fourth be with you tomorrow!
 
 <div class="social">
   <h4 class="twitter">[@samsunginternet](https://twitter.com/samsunginternet)</h3>
