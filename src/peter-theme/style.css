@@ -705,6 +705,14 @@ h2 + .quote {
   font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
 }
 
+.two-quotes .caption {
+  margin: 0 0 3em 0;
+}
+
+.two-quotes p {
+  margin: 1em 0 0.5em 0;
+}
+
 /* For background images so we can apply filters */
 .slide {
   overflow: auto;
@@ -718,7 +726,7 @@ h2 + .quote {
   top: 0;
   z-index: -1;
   display: block;
-  background-color: #222;
+  background-color: #111;
   background-size: cover;
   background-position: center center;
   box-shadow: inset 0 0 5em 2em #000; /* Vignette */
@@ -784,7 +792,7 @@ h2 + .quote {
 
 #slide-1 .caption {
   margin-top: 2em;
-  font-size: 0.6em;
+  font-size: 0.5em;
   color: #555;
   text-align: center;
   font-style: italic;
@@ -797,6 +805,22 @@ h2 + .quote {
 .a-short-time-ago h3 {
   font-family: 'News Cycle';
   color: #4bd5ee;
+}
+
+.slide.iphone-nyt:before {
+  background-image: url(images/iphone-nyt-scoble.jpg);
+}
+
+.slide.stormtrooper1:before {
+  background-image: url(images/starwars/stormtrooper-evarinaldiphotography.jpg);
+}
+
+.slide.stormtroopers:before {
+  background-image: url(images/starwars/stormtroopers-davebass5.jpg);
+}
+
+.slide.leia:before {
+  background-image: url(images/starwars/leiar2d2-jdhancock.jpg);
 }
 
 .thanks .social h3 {

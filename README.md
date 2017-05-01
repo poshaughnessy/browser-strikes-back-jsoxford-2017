@@ -41,8 +41,10 @@ commands!
 * Jaba https://www.flickr.com/photos/workinpana/3097278513/
 * Stormtrooper 1 https://www.flickr.com/photos/evarinaldiphotography/6820622585/
 * Stormtrooper 2 https://www.flickr.com/photos/evilspoon63/15899035498/
+* Stormtroopers https://www.flickr.com/photos/davebass5/32144721124/
 * Millennium Falcon https://www.flickr.com/photos/evilspoon63/15899075368/
 * Han https://www.flickr.com/photos/curacumba/8657373888/
 * Yoda and Luke https://www.flickr.com/photos/randar/34327307515
 * Boba Fett https://www.flickr.com/photos/48499944@N03/14578618566/
 * Darth https://www.flickr.com/photos/erprofe/5182289238/
+* Leia and R2D2 https://www.flickr.com/photos/jdhancock/9123769012/
