@@ -144,7 +144,10 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // Starfield animation added by Peter
-  Starfield.init(document.getElementById('slide-1'));
+  var starFieldTitle = new Starfield();
+  var starFieldThanks = new Starfield();
+  starFieldTitle.init(document.getElementById('slide-1'));
+  starFieldThanks.init(document.querySelector('.slide.thanks'));
 });
 
 /**

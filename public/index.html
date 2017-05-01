@@ -746,9 +746,16 @@ h2 + .quote {
 
 #slide-1 {
   overflow: hidden;
+  perspective: 600px;
 }
 
-#slide-1 canvas {
+#slide-1 .slide-content,
+.thanks .slide-content {
+  transform: rotateX(10deg);
+}
+
+#slide-1 canvas,
+.thanks canvas {
   position: absolute;
   z-index: -1;
 }
@@ -764,6 +771,11 @@ h2 + .quote {
   text-align: center;
   font-style: italic;
 }
+
+.thanks .social h3 {
+  margin-bottom: 0;
+}
+
   </style>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
   <link rel="icon" href="images/favicon.png" type=”image/png">
@@ -785,7 +797,7 @@ h2 + .quote {
 
 <div class="caption">*I know. It should be Episode 5 to go with the title. But it&#39;s Episode 2. Sorry. Please don&#39;t send angry tweets.</div></section>
   </div>
-  <div class="slide hidden  bg-fade-less-grey thanks valign-bottom" id="slide-2">
+  <div class="slide hidden  bg-fade-less-grey thanks" id="slide-2">
     <section class="slide-content"><h1 id="thanks-">Thanks!</h1>
 <div class="social">
   <h3 class="twitter"><a href="https://twitter.com/samsunginternet">@samsunginternet</a></h3>
@@ -946,7 +958,10 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // Starfield animation added by Peter
-  Starfield.init(document.getElementById('slide-1'));
+  var starFieldTitle = new Starfield();
+  var starFieldThanks = new Starfield();
+  starFieldTitle.init(document.getElementById('slide-1'));
+  starFieldThanks.init(document.querySelector('.slide.thanks'));
 });
 
 /**

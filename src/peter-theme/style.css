@@ -738,9 +738,16 @@ h2 + .quote {
 
 #slide-1 {
   overflow: hidden;
+  perspective: 600px;
 }
 
-#slide-1 canvas {
+#slide-1 .slide-content,
+.thanks .slide-content {
+  transform: rotateX(10deg);
+}
+
+#slide-1 canvas,
+.thanks canvas {
   position: absolute;
   z-index: -1;
 }
@@ -755,4 +762,8 @@ h2 + .quote {
   color: #555;
   text-align: center;
   font-style: italic;
+}
+
+.thanks .social h3 {
+  margin-bottom: 0;
 }
