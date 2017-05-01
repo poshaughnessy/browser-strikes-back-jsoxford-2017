@@ -91,9 +91,11 @@ controls: false
 </ul>
 </div>
 
-<!-- > &ldquo;PWAs combine the best of web & the best of apps&rdquo; 💯-->
+--
 
-<div class="credit">[Morris Quality Bakers](http://www.morrisqualitybakers.co.uk/goods/hovis-best-of-both-thick/)</div>
+![Web nearing parity with native](images/web-native-parity.jpg)
+
+<div class="credit">[What Comes Next For The Web? - Paul Kinlan](https://www.youtube.com/watch?v=YJwrBbze_Ec)</div>
 
 -- thanks starfield
 
