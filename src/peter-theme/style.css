@@ -20,7 +20,6 @@
   url('fonts/Roboto/Roboto-Bold.ttf') format('truetype');
 }
 
-
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
@@ -69,6 +68,24 @@
   font-weight: 700;
   src: url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype'),
   url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'News Cycle';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/News_Cycle/NewsCycle-Regular.ttf') format('truetype'),
+  url('fonts/News_Cycle/NewsCycle-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'News Cycle';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/News_Cycle/NewsCycle-Bold.ttf') format('truetype'),
+  url('fonts/News_Cycle/NewsCycle-Bold.ttf') format('truetype');
 }
 
 
@@ -684,6 +701,10 @@ h2 + .quote {
   top: 0;
 }
 
+.quote h2 {
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+}
+
 /* For background images so we can apply filters */
 .slide {
   overflow: auto;
@@ -752,8 +773,7 @@ h2 + .quote {
   transform: rotateX(10deg);
 }
 
-#slide-1 canvas,
-.thanks canvas {
+.starfield canvas {
   position: absolute;
   z-index: -1;
 }
@@ -768,6 +788,15 @@ h2 + .quote {
   color: #555;
   text-align: center;
   font-style: italic;
+}
+
+.slide.darth:before {
+  background-image: url(images/starwars/darth-erprofe.jpg);
+}
+
+.a-short-time-ago h3 {
+  font-family: 'News Cycle';
+  color: #4bd5ee;
 }
 
 .thanks .social h3 {

@@ -28,7 +28,6 @@
   url('fonts/Roboto/Roboto-Bold.ttf') format('truetype');
 }
 
-
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
@@ -77,6 +76,24 @@
   font-weight: 700;
   src: url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype'),
   url('fonts/sf_distant_galaxy/SF Distant Galaxy Outline.ttf') format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'News Cycle';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/News_Cycle/NewsCycle-Regular.ttf') format('truetype'),
+  url('fonts/News_Cycle/NewsCycle-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'News Cycle';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/News_Cycle/NewsCycle-Bold.ttf') format('truetype'),
+  url('fonts/News_Cycle/NewsCycle-Bold.ttf') format('truetype');
 }
 
 
@@ -692,6 +709,10 @@ h2 + .quote {
   top: 0;
 }
 
+.quote h2 {
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+}
+
 /* For background images so we can apply filters */
 .slide {
   overflow: auto;
@@ -760,8 +781,7 @@ h2 + .quote {
   transform: rotateX(10deg);
 }
 
-#slide-1 canvas,
-.thanks canvas {
+.starfield canvas {
   position: absolute;
   z-index: -1;
 }
@@ -778,6 +798,15 @@ h2 + .quote {
   font-style: italic;
 }
 
+.slide.darth:before {
+  background-image: url(images/starwars/darth-erprofe.jpg);
+}
+
+.a-short-time-ago h3 {
+  font-family: 'News Cycle';
+  color: #4bd5ee;
+}
+
 .thanks .social h3 {
   margin-bottom: 0;
 }
@@ -792,7 +821,7 @@ h2 + .quote {
     <div class="progress-bar"></div>
   </div>
 
-  <div class="slide  bg-fade-grey intro" id="slide-1">
+  <div class="slide  bg-fade-grey intro starfield" id="slide-1">
     <section class="slide-content"><h1 id="the-browser-br-strikes-back">The Browser <br> Strikes Back</h1>
 <h2 id="the-future-of-the-web-episode-2-">The Future Of The Web, Episode 2*</h2>
 <div class="contact">
@@ -803,7 +832,15 @@ h2 + .quote {
 
 <div class="caption">*I know. It should be Episode 5 to go with the title. But it&#39;s Episode 2. Sorry. Please don&#39;t send angry tweets.</div></section>
   </div>
-  <div class="slide hidden  bg-fade-less-grey thanks" id="slide-2">
+  <div class="slide hidden  darth bg-fade quote" id="slide-2">
+    <section class="slide-content"><h2 id="-ldquo-the-reality-is-that-the-web-is-in-crisis-actual-real-serious-crisis-rdquo-">&ldquo;The reality [is] that the web is in crisis. Actual, real, serious crisis.&rdquo;</h2>
+<div class="caption"><a href="https://twitter.com/slightlylate/status/740226825406668800">Alex Russell, 2016</a></div></section>
+  </div>
+  <div class="slide hidden  a-short-time-ago starfield" id="slide-3">
+    <section class="slide-content"><h3 id="a-short-time-ago-in-a-galaxy-not-br-far-away-">A short time ago, in a galaxy not<br> far away....</h3>
+</section>
+  </div>
+  <div class="slide hidden  bg-fade-less-grey thanks starfield" id="slide-4">
     <section class="slide-content"><h1 id="thanks-">Thanks!</h1>
 <h3 id="and-may-the-fourth-be-with-you-tomorrow">And May the Fourth be with you tomorrow</h3>
 <div class="social">
@@ -966,8 +1003,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Starfield animation added by Peter
   var starFieldTitle = new Starfield();
+  var starFieldTimeAgo = new Starfield();
   var starFieldThanks = new Starfield();
   starFieldTitle.init(document.getElementById('slide-1'));
+  starFieldTimeAgo.init(document.querySelector('.slide.a-short-time-ago'));
   starFieldThanks.init(document.querySelector('.slide.thanks'));
 });
 

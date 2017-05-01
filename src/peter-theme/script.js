@@ -145,8 +145,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Starfield animation added by Peter
   var starFieldTitle = new Starfield();
+  var starFieldTimeAgo = new Starfield();
   var starFieldThanks = new Starfield();
   starFieldTitle.init(document.getElementById('slide-1'));
+  starFieldTimeAgo.init(document.querySelector('.slide.a-short-time-ago'));
   starFieldThanks.init(document.querySelector('.slide.thanks'));
 });
 
