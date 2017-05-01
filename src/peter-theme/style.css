@@ -834,6 +834,18 @@ h2 + .quote {
   background-image: url(images/starwars/c3por2d2-nukamari.jpg);
 }
 
+.slide.millennium-falcon:before {
+  background-image: url(images/starwars/mf-evilspoon63.jpg);
+}
+
+.slide.luke-shooting:before {
+  background-image: url(images/starwars/lukeshooting-randar.jpg);
+}
+
+.slide.yoda1:before {
+  background-image: url(images/starwars/yoda-korymatthew.jpg);
+}
+
 .thanks .social h3 {
   margin-bottom: 0;
 }

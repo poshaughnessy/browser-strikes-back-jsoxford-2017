@@ -97,6 +97,24 @@ controls: false
 
 <div class="credit">[What Comes Next For The Web? - Paul Kinlan](https://www.youtube.com/watch?v=YJwrBbze_Ec)</div>
 
+--
+
+PWA results
+
+-- millennium-falcon bg-fade quote
+
+## &ldquo;What we worried... might be too-little-too-late... has turned out to be a real thing that's actually succeeding in improving business outcomes.&rdquo;
+
+<div class="caption">[Alex Russell, 2017](http://info.inspirehub.com/the-future-of-web-apps-whitepaper)</div>
+
+-- luke-shooting bg-fade
+
+## &ldquo;Stay sharp. There's two more coming in.&rdquo;
+
+-- yoda1 bg-fade
+
+## 
+
 -- thanks starfield
 
 # Thanks!
