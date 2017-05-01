@@ -142,6 +142,9 @@ document.addEventListener('DOMContentLoaded', function () {
       navigate(-1);
     };
   }
+
+  // Starfield animation added by Peter
+  Starfield.init(document.getElementById('slide-1'));
 });
 
 /**

@@ -736,6 +736,15 @@ h2 + .quote {
 
 /* Slide specific styles here */
 
+#slide-1 {
+  overflow: hidden;
+}
+
+#slide-1 canvas {
+  position: absolute;
+  z-index: -1;
+}
+
 #slide-1 h2 {
   font-style: italic;
 }
@@ -745,4 +754,5 @@ h2 + .quote {
   font-size: 0.6em;
   color: #555;
   text-align: center;
+  font-style: italic;
 }

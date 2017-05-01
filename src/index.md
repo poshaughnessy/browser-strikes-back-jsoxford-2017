@@ -15,7 +15,7 @@ controls: false
   <p>[@samsunginternet](https://twitter.com/samsunginternet)</p>
 </div>
 
-<div class="caption">*I know. It should probably be Episode 5. But it's not. Please don't email.</div>
+<div class="caption">*I know. It should be Episode 5 to go with the title. But it's Episode 2. Sorry. Please don't send angry tweets.</div>
 
 -- bg-fade-less-grey thanks valign-bottom
 
