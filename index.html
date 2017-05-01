@@ -744,6 +744,15 @@ h2 + .quote {
 
 /* Slide specific styles here */
 
+#slide-1 {
+  overflow: hidden;
+}
+
+#slide-1 canvas {
+  position: absolute;
+  z-index: -1;
+}
+
 #slide-1 h2 {
   font-style: italic;
 }
@@ -753,6 +762,7 @@ h2 + .quote {
   font-size: 0.6em;
   color: #555;
   text-align: center;
+  font-style: italic;
 }
   </style>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
@@ -773,7 +783,7 @@ h2 + .quote {
   <p><a href="https://twitter.com/samsunginternet">@samsunginternet</a></p>
 </div>
 
-<div class="caption">*I know. It should probably be Episode 5. But it&#39;s not. Please don&#39;t email.</div></section>
+<div class="caption">*I know. It should be Episode 5 to go with the title. But it&#39;s Episode 2. Sorry. Please don&#39;t send angry tweets.</div></section>
   </div>
   <div class="slide hidden  bg-fade-less-grey thanks valign-bottom" id="slide-2">
     <section class="slide-content"><h1 id="thanks-">Thanks!</h1>
@@ -786,6 +796,9 @@ h2 + .quote {
 
 
   <script src="lib/faye-browser-min.js"></script>
+  <script src="lib/Tween.js"></script>
+  <script src="lib/three.min.js"></script>
+  <script src="lib/starfield.js"></script>
   <script type="text/javascript">
     /**
  * Returns the current page number of the presentation.
@@ -931,6 +944,9 @@ document.addEventListener('DOMContentLoaded', function () {
       navigate(-1);
     };
   }
+
+  // Starfield animation added by Peter
+  Starfield.init(document.getElementById('slide-1'));
 });
 
 /**
