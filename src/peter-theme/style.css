@@ -611,6 +611,14 @@ pre .xml .cdata {
 
 /* Specific to this slide deck? */
 
+/* Starfield */
+body > canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
 h1,
 h2 {
   font-family: 'SF Distant Galaxy', Helvetica, arial;
@@ -781,9 +789,8 @@ h2 + .quote {
   transform: rotateX(10deg);
 }
 
-.starfield canvas {
-  position: absolute;
-  z-index: -1;
+.slide.starfield:before {
+  background: none;
 }
 
 #slide-1 h2 {
