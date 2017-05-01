@@ -713,6 +713,14 @@ h2 + .quote {
   font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
 }
 
+.two-quotes .caption {
+  margin: 0 0 3em 0;
+}
+
+.two-quotes p {
+  margin: 1em 0 0.5em 0;
+}
+
 /* For background images so we can apply filters */
 .slide {
   overflow: auto;
@@ -726,7 +734,7 @@ h2 + .quote {
   top: 0;
   z-index: -1;
   display: block;
-  background-color: #222;
+  background-color: #111;
   background-size: cover;
   background-position: center center;
   box-shadow: inset 0 0 5em 2em #000; /* Vignette */
@@ -792,7 +800,7 @@ h2 + .quote {
 
 #slide-1 .caption {
   margin-top: 2em;
-  font-size: 0.6em;
+  font-size: 0.5em;
   color: #555;
   text-align: center;
   font-style: italic;
@@ -805,6 +813,22 @@ h2 + .quote {
 .a-short-time-ago h3 {
   font-family: 'News Cycle';
   color: #4bd5ee;
+}
+
+.slide.iphone-nyt:before {
+  background-image: url(images/iphone-nyt-scoble.jpg);
+}
+
+.slide.stormtrooper1:before {
+  background-image: url(images/starwars/stormtrooper-evarinaldiphotography.jpg);
+}
+
+.slide.stormtroopers:before {
+  background-image: url(images/starwars/stormtroopers-davebass5.jpg);
+}
+
+.slide.leia:before {
+  background-image: url(images/starwars/leiar2d2-jdhancock.jpg);
 }
 
 .thanks .social h3 {
@@ -837,10 +861,44 @@ h2 + .quote {
 <div class="caption"><a href="https://twitter.com/slightlylate/status/740226825406668800">Alex Russell, 2016</a></div></section>
   </div>
   <div class="slide hidden  a-short-time-ago starfield" id="slide-3">
-    <section class="slide-content"><h3 id="a-short-time-ago-in-a-galaxy-not-br-far-away-">A short time ago, in a galaxy not<br> far away....</h3>
+    <section class="slide-content"><h3 id="a-decade-ago-in-a-galaxy-not-br-far-away-">A decade ago, in a galaxy not<br> far away....</h3>
 </section>
   </div>
-  <div class="slide hidden  bg-fade-less-grey thanks starfield" id="slide-4">
+  <div class="slide hidden  iphone-nyt" id="slide-4">
+    <section class="slide-content"><div class="credit"><a href="https://www.flickr.com/photos/scobleizer/4697192856">Robert Scoble</a></div></section>
+  </div>
+  <div class="slide hidden" id="slide-5">
+    <section class="slide-content"><p><img src="images/statcounter-mobile-desktop.png" alt="StatCounter mobile vs desktop graph"></p>
+</section>
+  </div>
+  <div class="slide hidden  img-with-caption" id="slide-6">
+    <section class="slide-content"><p><img src="images/address-book.png" alt="Address book access"></p>
+<div class="credit"><a href="http://thenextweb.com/mobile/2012/02/11/following-paths-contact-fiasco-instagram-silently-adds-a-contact-list-access-prompt/">The Next Web</a></div></section>
+  </div>
+  <div class="slide hidden  two-quotes stormtrooper1 bg-fade" id="slide-7">
+    <section class="slide-content"><blockquote>
+<p>&ldquo;Why Facebook ditched the Mobile Web&rdquo;</p>
+</blockquote>
+<div class="caption"><a href="http://readwrite.com/2012/08/23/how-facebook-ditched-the-mobile-web-went-native-with-its-new-ios-app/">Read Write Web</a></div>
+
+<blockquote>
+<p>&ldquo;Why LinkedIn dumped HTML5&rdquo;</p>
+</blockquote>
+<div class="caption"><a href="http://venturebeat.com/2013/04/17/linkedin-mobile-web-breakup/">Venture Beat</a></div></section>
+  </div>
+  <div class="slide hidden  img-with-caption" id="slide-8">
+    <section class="slide-content"><p><img src="images/comscore-time-spent.jpg" alt="comScore time spent"></p>
+<div class="caption"><a href="http://venturebeat.com/2013/04/03/the-mobile-war-is-over-and-the-app-has-won-80-of-mobile-time-spent-in-apps/">Reports</a> <a href="http://flurrymobile.tumblr.com/post/127638842745/seven-years-into-the-mobile-revolution-content-is">suggest</a> 80%-90% of time is spent in apps</div></section>
+  </div>
+  <div class="slide hidden  stormtroopers bg-fade" id="slide-9">
+    <section class="slide-content"><h2 id="-ldquo-it-is-a-dark-time-for-the-rebellion-rdquo-">&ldquo;It is a dark time for the Rebellion...&rdquo;</h2>
+</section>
+  </div>
+  <div class="slide hidden  leia bg-fade" id="slide-10">
+    <section class="slide-content"><h2 id="-ldquo-help-us-progressive-web-apps-you-are-our-only-hope-rdquo-">&ldquo;Help us, Progressive Web Apps. You are our only hope.&rdquo;</h2>
+</section>
+  </div>
+  <div class="slide hidden  bg-fade-less-grey thanks starfield" id="slide-11">
     <section class="slide-content"><h1 id="thanks-">Thanks!</h1>
 <h3 id="and-may-the-fourth-be-with-you-tomorrow">And May the Fourth be with you tomorrow</h3>
 <div class="social">
