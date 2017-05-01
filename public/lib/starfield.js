@@ -13,9 +13,9 @@ window.Starfield = function() {
     renderer,
     particles,
     tween,
-    starTexture = THREE.ImageUtils.loadTexture('../images/star-round.png'),
     width = window.innerWidth,
-    height = window.innerHeight;
+    height = window.innerHeight,
+    starTexture = THREE.ImageUtils.loadTexture('../images/star-round.png');
 
 
   this.init = function(container) {
@@ -27,7 +27,8 @@ window.Starfield = function() {
     scene.add(camera);
 
     renderer = new THREE.WebGLRenderer();
-    renderer.setSize( width, height );
+
+    setRendererSize();
 
     container.appendChild( renderer.domElement );
 
@@ -37,7 +38,15 @@ window.Starfield = function() {
 
     animate();
 
+    window.addEventListener('resize', setRendererSize);
+
   };
+
+  function setRendererSize() {
+    width = window.innerWidth;
+    height = window.innerHeight;
+    renderer.setSize( width, height );
+  }
 
   function startTween() {
 
@@ -47,8 +56,7 @@ window.Starfield = function() {
       .yoyo()
       .start();
 
-  };
-
+  }
 
   function animate(time) {
 

@@ -51,6 +51,10 @@ controls: false
 
 <div class="caption">[Venture Beat](http://venturebeat.com/2013/04/17/linkedin-mobile-web-breakup/)</div>
 
+--
+
+![comScore mobile web reach](images/comscore-mobile-web-crop.png)
+
 -- img-with-caption
 
 ![comScore time spent](images/comscore-time-spent.jpg)
@@ -65,7 +69,33 @@ controls: false
 
 ## &ldquo;Help us, Progressive Web Apps. You are our only hope.&rdquo;
 
--- bg-fade-less-grey thanks starfield
+-- best-of-both bg-fade
+
+<div class="left">
+<h2> Best of web 🌎</h2>
+<ul>
+<li>Multi-platform</li>
+<li>Frictionless</li>
+<li>Discoverable</li>
+<li>Open</li>
+</ul>
+</div>
+
+<div class="right">
+<h2> Best of apps  📱</h2>
+<ul>
+<li>Add to Home Screen</li>
+<li>Offline & instant load</li>
+<li>Push notifications</li>
+<li>Hardware integration</li>
+</ul>
+</div>
+
+<!-- > &ldquo;PWAs combine the best of web & the best of apps&rdquo; 💯-->
+
+<div class="credit">[Morris Quality Bakers](http://www.morrisqualitybakers.co.uk/goods/hovis-best-of-both-thick/)</div>
+
+-- thanks starfield
 
 # Thanks!
 
