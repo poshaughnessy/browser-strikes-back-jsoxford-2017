@@ -713,6 +713,14 @@ h2 + .quote {
   font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
 }
 
+.starwars-quote h2 {
+  padding: 0 1em;
+}
+
+.starwars-quote .caption {
+  font-style: italic;
+}
+
 .two-quotes .caption {
   margin: 0 0 3em 0;
 }
@@ -899,9 +907,8 @@ h2 + .quote {
   background-image: url(images/starwars/yoda-korymatthew.jpg);
 }
 
-.slide.future .caption {
-  font-style: italic;
-  margin-bottom: 1em;
+.slide.c3po:before {
+  background-image: url(images/starwars/c3po-gordontarpley.jpg);
 }
 
 .browsers img {
@@ -910,6 +917,10 @@ h2 + .quote {
 
 .slide.rebellion:before {
   background-image: url(images/starwars/rebellion-chrism70.jpg);
+}
+
+.slide.ewok-gamorrean:before {
+  background-image: url(images/starwars/ewokgamorrean-st3f4n.jpg);
 }
 
 .pwa-results .flex {

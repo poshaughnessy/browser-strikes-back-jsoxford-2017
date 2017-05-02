@@ -161,7 +161,7 @@ controls: false
 
 <div class="caption">[Alex Russell, 2017](http://info.inspirehub.com/the-future-of-web-apps-whitepaper)</div>
 
--- luke-shooting bg-fade
+-- luke-shooting bg-fade starwars-quote
 
 ## &ldquo;Stay sharp. There's two more coming in.&rdquo;
 
@@ -197,25 +197,39 @@ controls: false
 
 -- 
 
-## TODO web & native merging
+## Merging web & native
 
--- mazkanata bg-fade
+-- mazkanata bg-fade starwars-quote
 
 ## &ldquo;The longing you seek is not behind you, it is in front of you&rdquo;
 
--- yoda1 future bg-fade
+<div class="caption">So let's look ahead...</div>
 
-## &ldquo;Difficult to see. Always in motion is the future.&rdquo;
+-- yoda1 future bg-fade starwars-quote
 
-<div class="caption">The following ideas do not represent Samsung plans, just personal musings...</div>
+## &ldquo;Always in motion is the future.&rdquo;
+
+<div class="caption">The following ideas do not represent Samsung plans, just personal thoughts...</div>
+
+-- c3po bg-fade
+
+## Merging browsers & AI agents
+
+#### &ldquo;Show me flight options for Alderaan on 4th May&rdquo;
+
+#### &ldquo;Find me the droids I'm looking for&rdquo;
+
+*Most browsing tasks could be quicker & easier via AI assistants.*
 
 --
 
-## TODO AI browser
+## Merging AI and VR
 
---
+TODO GuriVR
 
-## TODO AI + VR
+-- ewok-gamorrean bg-fade
+
+## &ldquo;We'll do it together&rdquo;
 
 -- thanks starfield
 

@@ -55,3 +55,5 @@ commands!
 * Luke on Millennium Falcon https://www.flickr.com/photos/randar/14953437567/
 * Rebellion https://www.flickr.com/photos/chrism70/6100411620/
 * Maz Kanata https://www.flickr.com/photos/girlyseb/33276785244/
+* C3PO https://www.flickr.com/photos/gordontarpley/11874381723/
+* Ewok and Gamorrean https://www.flickr.com/photos/st3f4n/5582582531/
