@@ -111,14 +111,6 @@ controls: false
 
 <div class="caption">Progressive Web Apps combine both.</div> 
 
--- img-with-caption
-
-![Web nearing parity with native](images/web-native-parity.jpg)
-
-<div class="caption">The web is nearing parity...</div>
-
-<div class="credit">[What Comes Next For The Web? - Paul Kinlan](https://www.youtube.com/watch?v=YJwrBbze_Ec)</div>
-
 -- pwa-results starfield
 
 <div class="flex">
@@ -161,7 +153,7 @@ controls: false
 
 <div class="caption">[Alex Russell, 2017](http://info.inspirehub.com/the-future-of-web-apps-whitepaper)</div>
 
--- mazkanata bg-fade quote
+-- mazkanata bg-fade-more quote
 
 ## &ldquo;The longing you seek is not behind you, it is in front of you&rdquo;
 
@@ -173,6 +165,14 @@ controls: false
 
 <div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
+-- img-with-caption
+
+![Web nearing parity with native](images/web-native-parity.jpg)
+
+<div class="caption">The web is nearing parity...</div>
+
+<div class="credit">[What Comes Next For The Web? - Paul Kinlan](https://www.youtube.com/watch?v=YJwrBbze_Ec)</div>
+
 -- starfield
 
 >&ldquo;Web and Native will continue to blur&rdquo;
@@ -183,13 +183,19 @@ controls: false
 
 * 
 
---
+-- han-cantina bg-fade
 
 ## Web Payments
 
---
+-- stormtroopers-assembly bg-fade
 
 ## Web Assembly
+
+-- stormtrooper-thinking bg-fade
+
+## Is &ldquo;browser&rdquo; still the right word?
+
+<div class="caption">[bit.ly/is-browser-still-the-right-word](http://bit.ly/is-browser-still-the-right-word)</div>
 
 -- starfield
 
@@ -197,17 +203,17 @@ controls: false
 
 <div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
---
+-- virtual-jedi bg-fade
 
-## TODO webvr
-
---
-
-## TODO star sword demo
+## WebVR
 
 --
 
-## TODO ar (hololens)
+## Star Sword Demo
+
+-- ar-helmet bg-fade
+
+## WebAR
 
 <div class="caption">The web will become an extension of the world around us.</div>
 
@@ -217,17 +223,17 @@ controls: false
 
 <div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
---
+-- luke-training bg-fade
 
-## TODO physical web
+## Physical Web
 
---
+-- wiimote bg-fade
 
-## TODO web bluetooth
+## Web Bluetooth
  
 --
 
-## TODO BB8 demo
+## BB8 Demo
 
 -- luke-shooting bg-fade quote
 
@@ -239,7 +245,7 @@ controls: false
 
 ## Browsers & AI agents merging
 
--- c3po ai bg-fade
+-- c3po ai bg-fade-more
 
 #### 🗣️ &ldquo;Show me flight options for Alderaan on the 4th May&rdquo;
 
@@ -249,11 +255,11 @@ controls: false
 
 <div class="caption">Most browsing tasks could be quicker & easier via AI assistants.</div>
 
--- starfield quote
+-- r2d2 bg-fade
 
-## AI APIs for a “Semantic Web” rebirth?
+## "Semantic Web" v2?
 
-<div class="caption">Imagine booking a hotel, but with your AI agent contacting their AI agent over the web...</div>
+<div class="caption">Imagine booking a hotel by using your AI agent to contact a website's AI agent...</div>
 
 -- starfield
 
@@ -263,19 +269,17 @@ controls: false
 
 <div class="caption">[Storyteller by Dan Zajdband](https://zajdband.com/storyteller/vr.html)</div>
 
--- stormtrooper-thinking bg-fade
-
-## Is &ldquo;browser&rdquo; still the right word?
-
-<div class="caption">[bit.ly/is-browser-still-the-right-word](http://bit.ly/is-browser-still-the-right-word)</div>
-
 -- yoda1 future bg-fade quote
 
 ## &ldquo;Always in motion is the future.&rdquo;
 
+<div class="caption">Yoda</div>
+
 -- ewok-gamorrean bg-fade
 
 ## &ldquo;This time we'll do it together&rdquo;
+
+<div class="caption">Obi-Wan Kenobi</div>
 
 -- thanks starfield
 

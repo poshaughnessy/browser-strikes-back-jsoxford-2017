@@ -886,6 +886,14 @@ h2 + .quote {
   background-image: url(images/starwars/lukeshooting-randar.jpg);
 }
 
+.slide.luke-training:before {
+  background-image: url(images/starwars/luketraining-randar.jpg);
+}
+
+.slide.wiimote:before {
+  background-image: url(images/starwars/wiimote-st3f4n.jpg);
+}
+
 .slide.mazkanata:before {
   background-image: url(images/starwars/mazkanata-girlyseb.jpg);
 }
@@ -906,12 +914,32 @@ h2 + .quote {
   background-image: url(images/starwars/c3po-gordontarpley.jpg);
 }
 
-.slide.ai h2 {
-  margin-bottom: 1em;
+.slide.ai h4 {
+  font-size: 1.5em;
 }
 
 .slide.ai .caption {
   margin-top: 4em;
+}
+
+.slide.r2d2:before {
+  background-image: url(images/starwars/r2d2-philrenaud.jpg);
+}
+
+.slide.han-cantina:before {
+  background-image: url(images/starwars/hancantina-trollanmagician.jpg);
+}
+
+.slide.stormtroopers-assembly:before {
+  background-image: url(images/starwars/stormtroopers-patloika.jpg);
+}
+
+.slide.ar-helmet:before {
+  background-image: url(images/starwars/arhelmet-nowhere77.jpg);
+}
+
+.slide.virtual-jedi:before {
+  background-image: url(images/starwars/virtualjedi-nighthawk-24.jpg);
 }
 
 .browsers img {

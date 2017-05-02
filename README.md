@@ -43,6 +43,7 @@ commands!
 * Stormtrooper 2 https://www.flickr.com/photos/evilspoon63/15899035498/
 * Stormtrooper 3 https://www.flickr.com/photos/kalexanderson/8024368295/
 * Stormtroopers https://www.flickr.com/photos/davebass5/32144721124/
+* Stormtroopers assembly https://www.flickr.com/photos/patloika/14570819278/
 * Millennium Falcon https://www.flickr.com/photos/evilspoon63/15899075368/
 * Han https://www.flickr.com/photos/curacumba/8657373888/
 * Yoda and Luke https://www.flickr.com/photos/randar/34327307515
@@ -57,3 +58,8 @@ commands!
 * Maz Kanata https://www.flickr.com/photos/girlyseb/33276785244/
 * C3PO https://www.flickr.com/photos/gordontarpley/11874381723/
 * Ewok and Gamorrean https://www.flickr.com/photos/st3f4n/5582582531/
+* R2D2 https://www.flickr.com/photos/59716929@N04/14768709339/
+* Han in cantina https://www.flickr.com/photos/trollanmagician/33304510702/
+* AR helmet https://www.flickr.com/photos/nowhere77/3873268950/
+* Virtual jedi https://www.flickr.com/photos/nighthawk-24/13704681673/
+* Wiimote https://www.flickr.com/photos/st3f4n/3545741061/
