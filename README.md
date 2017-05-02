@@ -41,6 +41,7 @@ commands!
 * Jaba https://www.flickr.com/photos/workinpana/3097278513/
 * Stormtrooper 1 https://www.flickr.com/photos/evarinaldiphotography/6820622585/
 * Stormtrooper 2 https://www.flickr.com/photos/evilspoon63/15899035498/
+* Stormtrooper 3 https://www.flickr.com/photos/kalexanderson/8024368295/
 * Stormtroopers https://www.flickr.com/photos/davebass5/32144721124/
 * Millennium Falcon https://www.flickr.com/photos/evilspoon63/15899075368/
 * Han https://www.flickr.com/photos/curacumba/8657373888/
@@ -53,3 +54,4 @@ commands!
 * Luke training https://www.flickr.com/photos/randar/15059321301/
 * Luke on Millennium Falcon https://www.flickr.com/photos/randar/14953437567/
 * Rebellion https://www.flickr.com/photos/chrism70/6100411620/
+* Maz Kanata https://www.flickr.com/photos/girlyseb/33276785244/

@@ -887,8 +887,21 @@ h2 + .quote {
   background-image: url(images/starwars/lukeshooting-randar.jpg);
 }
 
+.slide.mazkanata:before {
+  background-image: url(images/starwars/mazkanata-girlyseb.jpg);
+}
+
+.slide.stormtrooper-thinking:before {
+  background-image: url(images/starwars/stormtrooper-kalexanderson.jpg);
+}
+
 .slide.yoda1:before {
   background-image: url(images/starwars/yoda-korymatthew.jpg);
+}
+
+.slide.future .caption {
+  font-style: italic;
+  margin-bottom: 1em;
 }
 
 .browsers img {

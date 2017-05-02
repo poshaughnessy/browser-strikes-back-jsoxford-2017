@@ -167,11 +167,7 @@ controls: false
 
 --
 
-## TODO web payments
-
--- yoda1 bg-fade
-
-## &ldquo;Always in motion is the future.&rdquo;
+## Web Payments
 
 --
 
@@ -193,13 +189,25 @@ controls: false
 
 ## TODO star sword demo
 
---
+-- stormtrooper-thinking bg-fade
 
-## TODO 'browser' doesn't fit anymore
+## Is &ldquo;browser&rdquo; still the right word?
+
+<div class="caption">[bit.ly/is-browser-still-the-right-word](http://bit.ly/is-browser-still-the-right-word)</div>
 
 -- 
 
 ## TODO web & native merging
+
+-- mazkanata bg-fade
+
+## &ldquo;The longing you seek is not behind you, it is in front of you&rdquo;
+
+-- yoda1 future bg-fade
+
+## &ldquo;Difficult to see. Always in motion is the future.&rdquo;
+
+<div class="caption">The following ideas do not represent Samsung plans, just personal musings...</div>
 
 --
 
