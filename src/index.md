@@ -167,13 +167,13 @@ controls: false
 
 <div class="caption">Let's see how [my predictions from 2015](https://future-of-web-dev-2020.herokuapp.com) are going...</div>
 
--- starfield prediction
+-- starfield
 
 >&ldquo;The Web will have caught up on key features&rdquo;
 
 <div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
--- starfield prediction
+-- starfield
 
 >&ldquo;Web and Native will continue to blur&rdquo;
 
@@ -191,7 +191,7 @@ controls: false
 
 ## Web Assembly
 
---
+-- starfield
 
 >&ldquo;VR and AR merging&rdquo;
 
@@ -211,9 +211,11 @@ controls: false
 
 <div class="caption">The web will become an extension of the world around us.</div>
 
---
+-- starfield
 
 >&ldquo;Digital and Physical Merging&rdquo;
+
+<div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
 --
 
@@ -233,9 +235,11 @@ controls: false
 
 <div class="caption">The following ideas do not represent Samsung plans, just personal thoughts...</div>
 
--- c3po ai bg-fade
+-- starfield
 
 ## Browsers & AI agents merging
+
+-- c3po ai bg-fade
 
 #### 🗣️ &ldquo;Show me flight options for Alderaan on the 4th May&rdquo;
 
@@ -245,17 +249,19 @@ controls: false
 
 <div class="caption">Most browsing tasks could be quicker & easier via AI assistants.</div>
 
---
+-- starfield quote
 
-## A “Semantic Web” rebirth, via APIs for AI agents?
+## AI APIs for a “Semantic Web” rebirth?
 
 <div class="caption">Imagine booking a hotel, but with your AI agent contacting their AI agent over the web...</div>
 
---
+-- starfield
 
 ## AI and VR merging
 
-TODO GuriVR
+-- storyteller valign-bottom
+
+<div class="caption">[Storyteller by Dan Zajdband](https://zajdband.com/storyteller/vr.html)</div>
 
 -- stormtrooper-thinking bg-fade
 
@@ -269,7 +275,7 @@ TODO GuriVR
 
 -- ewok-gamorrean bg-fade
 
-## &ldquo;We'll do it together&rdquo;
+## &ldquo;This time we'll do it together&rdquo;
 
 -- thanks starfield
 
