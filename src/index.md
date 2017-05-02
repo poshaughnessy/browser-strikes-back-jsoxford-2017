@@ -161,7 +161,9 @@ controls: false
 
 -- starfield
 
->&ldquo;The Web will have caught up on key features&rdquo;
+>&ldquo;The Web will catch up on key features&rdquo;
+
+>&ldquo;Web and Native will continue to blur&rdquo;
 
 <div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
@@ -173,13 +175,7 @@ controls: false
 
 <div class="credit">[What Comes Next For The Web? - Paul Kinlan](https://www.youtube.com/watch?v=YJwrBbze_Ec)</div>
 
--- starfield
-
->&ldquo;Web and Native will continue to blur&rdquo;
-
-<div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
-
---
+-- snowvader bg-fade
 
 ## Deeper Android integration
 
@@ -190,6 +186,13 @@ controls: false
 -- stormtroopers-assembly bg-fade
 
 ## Web Assembly
+
+-- ewoks bg-fade
+
+## And lots more...
+
+<div class="caption">Web Sharing API, Web Target, Credential Management API...</div>
+
 
 -- stormtrooper-thinking bg-fade
 

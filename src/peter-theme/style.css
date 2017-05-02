@@ -954,6 +954,14 @@ h2 + .quote {
   background-image: url(images/starwars/ewokgamorrean-st3f4n.jpg);
 }
 
+.slide.ewoks:before {
+  background-image: url(images/starwars/ewoks-el_fedora.jpg);
+}
+
+.slide.snowvader:before {
+  background-image: url(images/starwars/snowvader-st3f4n.jpg);
+}
+
 .pwa-results .flex {
   padding-bottom: 1em;
 }

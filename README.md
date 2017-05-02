@@ -44,6 +44,7 @@ commands!
 * Stormtrooper 3 https://www.flickr.com/photos/kalexanderson/8024368295/
 * Stormtroopers https://www.flickr.com/photos/davebass5/32144721124/
 * Stormtroopers assembly https://www.flickr.com/photos/patloika/14570819278/
+* Stormtroopers march https://upload.wikimedia.org/wikipedia/commons/9/9d/Stormtroopers_march.jpg
 * Millennium Falcon https://www.flickr.com/photos/evilspoon63/15899075368/
 * Han https://www.flickr.com/photos/curacumba/8657373888/
 * Yoda and Luke https://www.flickr.com/photos/randar/34327307515
@@ -63,3 +64,5 @@ commands!
 * AR helmet https://www.flickr.com/photos/nowhere77/3873268950/
 * Virtual jedi https://www.flickr.com/photos/nighthawk-24/13704681673/
 * Wiimote https://www.flickr.com/photos/st3f4n/3545741061/
+* Ewoks https://www.flickr.com/photos/el_fedora/4084742000/
+* Snowvader https://www.flickr.com/photos/st3f4n/4194969521/
