@@ -181,7 +181,7 @@ controls: false
 
 --
 
-* 
+## Deeper Android integration
 
 -- han-cantina bg-fade
 
@@ -199,7 +199,7 @@ controls: false
 
 -- starfield
 
->&ldquo;VR and AR merging&rdquo;
+>&ldquo;Virtual Reality (after the usual Hype Curve)&rdquo;
 
 <div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
@@ -207,15 +207,27 @@ controls: false
 
 ## WebVR
 
+<div class="caption">The legacy web will become a 2D window inside the metaverse.</div>
+
 --
 
 ## Star Sword Demo
+
+-- starfield
+
+>&ldquo;VR and AR merging&rdquo;
+
+<div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
 -- ar-helmet bg-fade
 
 ## WebAR
 
 <div class="caption">The web will become an extension of the world around us.</div>
+
+--
+
+https://github.com/jeromeetienne/AR.js
 
 -- starfield
 
