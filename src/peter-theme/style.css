@@ -879,6 +879,10 @@ h2 + .quote {
   background-image: url(images/starwars/mf-evilspoon63.jpg);
 }
 
+.slide.yoda-luke:before {
+  background-image: url(images/starwars/yodaluke-randar.jpg);
+}
+
 .slide.luke-shooting:before {
   background-image: url(images/starwars/lukeshooting-randar.jpg);
 }

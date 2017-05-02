@@ -151,7 +151,7 @@ controls: false
 
 <div class="caption">[developers.google.com/web/showcase/](https://developers.google.com/web/showcase/)</div>
 
---
+-- yoda-luke bg-fade
 
 [![Twitter moved to a PWA](images/twitter-pwa.jpg)](https://twitter.com/necolas/status/829128165314306048)
 
