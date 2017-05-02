@@ -625,7 +625,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'SF Distant Galaxy Outline', Helvetica, arial;
+  font-family: 'SF Distant Galaxy', Helvetica, arial;
 }
 
 h1 {
@@ -719,6 +719,14 @@ h2 + .quote {
 
 .two-quotes p {
   margin: 1em 0 0.5em 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 /* For background images so we can apply filters */
@@ -845,6 +853,11 @@ h2 + .quote {
   background-image: url(images/starwars/leiar2d2-jdhancock.jpg);
 }
 
+.best-of-both .caption {
+  padding-top: 3em;
+  font-style: italic;
+}
+
 .slide.best-of-both:before {
   background-image: url(images/starwars/c3por2d2-nukamari.jpg);
 }
@@ -861,6 +874,39 @@ h2 + .quote {
   background-image: url(images/starwars/yoda-korymatthew.jpg);
 }
 
-.thanks .social h3 {
+.browsers img {
+  max-width: 5em;
+}
+
+.slide.rebellion:before {
+  background-image: url(images/starwars/rebellion-chrism70.jpg);
+}
+
+.pwa-results .flex {
+  margin-bottom: 0.5em;
+}
+
+.pwa-results .flex-item {
+  padding: 0.2em 1em;
+}
+
+.pwa-results h4 {
+  margin-bottom: 0.3em;
+}
+
+.pwa-results p {
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+.pwa-results img {
+  max-height: 5em;
+}
+
+.thanks h3 {
+  font-family: 'SF Distant Galaxy Outline', Helvetica, arial;
+}
+
+.thanks .social h4 {
   margin-bottom: 0;
 }

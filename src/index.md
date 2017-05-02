@@ -3,7 +3,7 @@ output: public/index.html
 theme: peter-theme
 controls: false
 
--- bg-fade-grey intro starfield
+-- intro starfield
 
 # The Browser <br> Strikes Back
 
@@ -35,12 +35,6 @@ controls: false
 
 ![StatCounter mobile vs desktop graph](images/statcounter-mobile-desktop.png)
 
--- img-with-caption
-
-![Address book access](images/address-book.png)
-
-<div class="credit">[The Next Web](http://thenextweb.com/mobile/2012/02/11/following-paths-contact-fiasco-instagram-silently-adds-a-contact-list-access-prompt/)</div>
-
 -- two-quotes stormtrooper1 bg-fade
 
 >&ldquo;Facebook ditched the Mobile Web&rdquo;
@@ -51,9 +45,13 @@ controls: false
 
 <div class="caption">[Venture Beat](http://venturebeat.com/2013/04/17/linkedin-mobile-web-breakup/)</div>
 
---
+-- img-with-caption
 
-![comScore mobile web reach](images/comscore-mobile-web-crop.png)
+![Address book access](images/address-book.png)
+
+<div class="caption">The web still does not have certain powers (dark side or not)</div>
+
+<div class="credit">[The Next Web](http://thenextweb.com/mobile/2012/02/11/following-paths-contact-fiasco-instagram-silently-adds-a-contact-list-access-prompt/)</div>
 
 -- img-with-caption
 
@@ -67,12 +65,32 @@ controls: false
 
 -- leia bg-fade
 
-## &ldquo;Help us, Progressive Web Apps. You are our only hope.&rdquo;
+## &ldquo;Help us, Browsers. You are our only hope.&rdquo;
+
+-- browsers bg-fade
+
+### Diverse these browsers are...
+
+![Chrome](images/browsers/chrome.png) ![Safari](images/browsers/safari.png) ![UC Browser](images/browsers/uc.png) ![Firefox](images/browsers/firefox.png) ![IE](images/browsers/internet-explorer.png) ![Opera](images/browsers/opera.png) ![Samsung Internet](images/browsers/sbrowser5.4.png) ![Android](images/browsers/android.png) ![Edge](images/browsers/edge.png)
+
+<div class="caption">[bit.ly/think-you-know-the-top-browsers](http://bit.ly/think-you-know-the-top-browsers)</div>
+
+-- rebellion bg-fade img-with-header
+
+### Meet The Rebellion
+
+![PWA Dev Summit "Rebellion forces"](images/pwa-dev-summit.jpg)
+
+-- img-with-caption
+
+![comScore mobile web reach](images/comscore-mobile-web-crop.png)
+
+<div class="caption">The 'distribution' force is strong with the Web</div>
 
 -- best-of-both bg-fade
 
 <div class="left">
-<h2> Best of web 🌎</h2>
+<h2> The web force 🌎</h2>
 <ul>
 <li>Multi-platform</li>
 <li>Frictionless</li>
@@ -82,7 +100,7 @@ controls: false
 </div>
 
 <div class="right">
-<h2> Best of apps  📱</h2>
+<h2> The app force  📱</h2>
 <ul>
 <li>Add to Home Screen</li>
 <li>Offline & instant load</li>
@@ -91,19 +109,47 @@ controls: false
 </ul>
 </div>
 
---
+<div class="caption">Progressive Web Apps combine both.</div> 
+
+-- img-with-caption
 
 ![Web nearing parity with native](images/web-native-parity.jpg)
 
+<div class="caption">The web is nearing parity...</div>
+
 <div class="credit">[What Comes Next For The Web? - Paul Kinlan](https://www.youtube.com/watch?v=YJwrBbze_Ec)</div>
 
---
+-- pwa-results starfield
 
-## TODO browser diversity - "rebellion" community
+<div class="flex">
+  <div class="flex-item">
+    <h4>Alibaba</h4>
+    <p>76% increase in conversions</p>
+    <img src="images/pwa-alibaba.png" alt="Alibaba"/>
+  </div>
+  <div class="flex-item">
+    <h4>AliExpress</h4>
+    <p>104% higher conversion rate for new users</p>
+    <img src="images/pwa-aliexpress.png" alt="AliExpress"/>
+  </div>
+  <div class="flex-item">
+    <h4>Flipkart</h4>
+    <p>Tripled time-on-site</p>
+    <img src="images/pwa-flipkart.png" alt="Flipkart"/>
+  </div>
+  <div class="flex-item">
+    <h4>eXtra Electronics</h4>
+    <p>100% more sales via push notifications</p>
+    <img src="images/pwa-extraelectronics.png" alt="eXtra Electronics"/>
+  </div>
+  <div class="flex-item">
+    <h4>The Weather Channel</h4>
+    <p>80% improvement in load time</p>
+    <img src="images/pwa-weatherchannel.png" alt="The Weather Channel"/>
+  </div>
+</div>
 
---
-
-## TODO PWA results
+<div class="caption">[developers.google.com/web/showcase/](https://developers.google.com/web/showcase/)</div>
 
 --
 
@@ -137,7 +183,15 @@ controls: false
  
 --
 
+## TODO BB8 demo
+
+--
+
 ## TODO webvr
+
+--
+
+## TODO star sword demo
 
 --
 
