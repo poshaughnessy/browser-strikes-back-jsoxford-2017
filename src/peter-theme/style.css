@@ -291,6 +291,10 @@ blockquote {
   margin: 0;
 }
 
+blockquote p {
+  margin-bottom: 0.5em;
+}
+
 .left {
   float: left;
   width: 48%;
@@ -356,9 +360,10 @@ table th {
 }
 
 .caption {
-  font-size: 0.7em;
+  font-size: 1em;
   margin-top: 0.5em;
   font-weight: normal;
+  font-style: italic;
   text-shadow: none;
   -webkit-text-stroke-width: 0;
   color: #aaa;
@@ -371,12 +376,6 @@ table th {
   font-weight: normal;
   text-shadow: none;
   -webkit-text-stroke-width: 0;
-}
-
-/* Quote by... */
-blockquote + p {
-  font-size: 0.9em;
-  margin-top: 1em;
 }
 
 /* Code Highlighting */
@@ -710,15 +709,7 @@ h2 + .quote {
 }
 
 .quote h2 {
-  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
-}
-
-.starwars-quote h2 {
   padding: 0 1em;
-}
-
-.starwars-quote .caption {
-  font-style: italic;
 }
 
 .two-quotes .caption {
@@ -856,6 +847,7 @@ h2 + .quote {
 .a-short-time-ago h3 {
   font-family: 'News Cycle';
   color: #4bd5ee;
+  font-size: 2em;
 }
 
 .slide.iphone-nyt:before {
@@ -876,7 +868,6 @@ h2 + .quote {
 
 .best-of-both .caption {
   padding-top: 3em;
-  font-style: italic;
 }
 
 .slide.best-of-both:before {
@@ -899,6 +890,10 @@ h2 + .quote {
   background-image: url(images/starwars/mazkanata-girlyseb.jpg);
 }
 
+.mazkanata .caption {
+  margin-top: 2em;
+}
+
 .slide.stormtrooper-thinking:before {
   background-image: url(images/starwars/stormtrooper-kalexanderson.jpg);
 }
@@ -909,6 +904,14 @@ h2 + .quote {
 
 .slide.c3po:before {
   background-image: url(images/starwars/c3po-gordontarpley.jpg);
+}
+
+.slide.ai h2 {
+  margin-bottom: 1em;
+}
+
+.slide.ai .caption {
+  margin-top: 4em;
 }
 
 .browsers img {

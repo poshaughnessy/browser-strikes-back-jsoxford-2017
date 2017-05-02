@@ -19,7 +19,7 @@ controls: false
 
 -- darth bg-fade quote
 
-## &ldquo;The reality [is] that the web is in crisis. Actual, real, serious crisis.&rdquo;
+>&ldquo;The reality [is] that the web is in crisis. Actual, real, serious crisis.&rdquo;
 
 <div class="caption">[Alex Russell, 2016](https://twitter.com/slightlylate/status/740226825406668800)</div>
 
@@ -157,17 +157,63 @@ controls: false
 
 -- millennium-falcon bg-fade quote
 
-## &ldquo;What we worried... might be too-little-too-late... has turned out to be a real thing that's actually succeeding in improving business outcomes.&rdquo;
+>&ldquo;What we worried... might be too-little-too-late... has turned out to be a real thing that's actually succeeding in improving business outcomes.&rdquo;
 
 <div class="caption">[Alex Russell, 2017](http://info.inspirehub.com/the-future-of-web-apps-whitepaper)</div>
 
--- luke-shooting bg-fade starwars-quote
+-- mazkanata bg-fade quote
 
-## &ldquo;Stay sharp. There's two more coming in.&rdquo;
+## &ldquo;The longing you seek is not behind you, it is in front of you&rdquo;
+
+<div class="caption">Let's see how [my predictions from 2015](https://future-of-web-dev-2020.herokuapp.com) are going...</div>
+
+-- starfield prediction
+
+>&ldquo;The Web will have caught up on key features&rdquo;
+
+<div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
+
+-- starfield prediction
+
+>&ldquo;Web and Native will continue to blur&rdquo;
+
+<div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
+
+--
+
+* 
 
 --
 
 ## Web Payments
+
+--
+
+## Web Assembly
+
+--
+
+>&ldquo;VR and AR merging&rdquo;
+
+<div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
+
+--
+
+## TODO webvr
+
+--
+
+## TODO star sword demo
+
+--
+
+## TODO ar (hololens)
+
+<div class="caption">The web will become an extension of the world around us.</div>
+
+--
+
+>&ldquo;Digital and Physical Merging&rdquo;
 
 --
 
@@ -181,13 +227,35 @@ controls: false
 
 ## TODO BB8 demo
 
+-- luke-shooting bg-fade quote
+
+## &ldquo;Stay sharp. There's two more coming in.&rdquo;
+
+<div class="caption">The following ideas do not represent Samsung plans, just personal thoughts...</div>
+
+-- c3po ai bg-fade
+
+## Browsers & AI agents merging
+
+#### 🗣️ &ldquo;Show me flight options for Alderaan on the 4th May&rdquo;
+
+#### 🗣️ &ldquo;Where are the droids I'm looking for?&rdquo;
+
+#### 🗣️ &ldquo;How do you blow up a Death Star?&rdquo;
+
+<div class="caption">Most browsing tasks could be quicker & easier via AI assistants.</div>
+
 --
 
-## TODO webvr
+## A “Semantic Web” rebirth, via APIs for AI agents?
+
+<div class="caption">Imagine booking a hotel, but with your AI agent contacting their AI agent over the web...</div>
 
 --
 
-## TODO star sword demo
+## AI and VR merging
+
+TODO GuriVR
 
 -- stormtrooper-thinking bg-fade
 
@@ -195,37 +263,9 @@ controls: false
 
 <div class="caption">[bit.ly/is-browser-still-the-right-word](http://bit.ly/is-browser-still-the-right-word)</div>
 
--- 
-
-## Merging web & native
-
--- mazkanata bg-fade starwars-quote
-
-## &ldquo;The longing you seek is not behind you, it is in front of you&rdquo;
-
-<div class="caption">So let's look ahead...</div>
-
--- yoda1 future bg-fade starwars-quote
+-- yoda1 future bg-fade quote
 
 ## &ldquo;Always in motion is the future.&rdquo;
-
-<div class="caption">The following ideas do not represent Samsung plans, just personal thoughts...</div>
-
--- c3po bg-fade
-
-## Merging browsers & AI agents
-
-#### &ldquo;Show me flight options for Alderaan on 4th May&rdquo;
-
-#### &ldquo;Find me the droids I'm looking for&rdquo;
-
-*Most browsing tasks could be quicker & easier via AI assistants.*
-
---
-
-## Merging AI and VR
-
-TODO GuriVR
 
 -- ewok-gamorrean bg-fade
 
