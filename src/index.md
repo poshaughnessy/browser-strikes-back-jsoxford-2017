@@ -90,7 +90,7 @@ controls: false
 -- best-of-both bg-fade
 
 <div class="left">
-<h2> The web force 🌎</h2>
+<h2> Web force 🌎</h2>
 <ul>
 <li>Multi-platform</li>
 <li>Frictionless</li>
@@ -100,7 +100,7 @@ controls: false
 </div>
 
 <div class="right">
-<h2> The app force  📱</h2>
+<h2> App force  📱</h2>
 <ul>
 <li>Add to Home Screen</li>
 <li>Offline & instant load</li>
