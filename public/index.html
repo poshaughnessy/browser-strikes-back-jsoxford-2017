@@ -810,14 +810,27 @@ h2 + .quote {
 /* Slide specific styles here */
 
 #slide-1,
-.thanks {
+.thanks,
+.pwa-results {
   overflow: hidden;
   perspective: 600px;
 }
 
 #slide-1 .slide-content,
 .thanks .slide-content {
+  -webkit-transform: rotateX(10deg);
+  -moz-transform: rotateX(10deg);
+  -ms-transform: rotateX(10deg);
+  -o-transform: rotateX(10deg);
   transform: rotateX(10deg);
+}
+
+.pwa-results .slide-content {
+  -webkit-transform: rotateX(10deg) translateY(-2em);
+  -moz-transform: rotateX(10deg) translateY(-2em);
+  -ms-transform: rotateX(10deg) translateY(-2em);
+  -o-transform: rotateX(10deg) translateY(-2em);
+  transform: rotateX(10deg) translateY(-2em);
 }
 
 .slide.starfield:before {
@@ -891,7 +904,7 @@ h2 + .quote {
 }
 
 .pwa-results .flex {
-  margin-bottom: 0.5em;
+  padding-bottom: 1em;
 }
 
 .pwa-results .flex-item {
