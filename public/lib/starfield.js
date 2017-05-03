@@ -15,7 +15,7 @@ window.Starfield = function() {
     particles,
     width = window.innerWidth,
     height = window.innerHeight,
-    starTexture = THREE.ImageUtils.loadTexture('../images/star-round.png');
+    starTexture = THREE.ImageUtils.loadTexture('/images/star-round.png');
 
 
   this.init = function(container) {
