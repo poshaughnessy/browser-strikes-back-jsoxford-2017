@@ -294,9 +294,11 @@ controls: false
  
 ![Bluetooth pairing prompt](images/bluetooth-pairing-prompt.png)
  
---
+-- img-with-caption
 
-## BB8 Demo
+![BB8 control panel](images/bb8-control.png)
+
+<div class="caption">[operasoftware.github.io/bb8/](https://operasoftware.github.io/bb8/)</div>
 
 -- stormtrooper-thinking bg-fade
 
