@@ -36,8 +36,8 @@ commands!
 
 ## Image credits
 
-* Yoda 1 https://www.flickr.com/photos/pahudson/33528964984/
-* Yoda 2 https://www.flickr.com/photos/korymatthew/14211839966/
+* Yoda 1 https://www.flickr.com/photos/korymatthew/14211839966/
+* Yoda 2 https://www.flickr.com/photos/pahudson/33528964984/
 * Jaba https://www.flickr.com/photos/workinpana/3097278513/
 * Stormtrooper 1 https://www.flickr.com/photos/evarinaldiphotography/6820622585/
 * Stormtrooper 2 https://www.flickr.com/photos/evilspoon63/15899035498/

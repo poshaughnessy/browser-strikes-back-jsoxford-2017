@@ -23,6 +23,8 @@ controls: false
 
 <div class="caption">[Alex Russell, 2016](https://twitter.com/slightlylate/status/740226825406668800)</div>
 
+<div class="credit">[erprofe](https://www.flickr.com/photos/erprofe/5182289238/)</div>
+
 -- a-short-time-ago starfield
 
 ### A decade ago, in a galaxy not<br> far away....
@@ -45,6 +47,8 @@ controls: false
 
 <div class="caption">[Venture Beat](http://venturebeat.com/2013/04/17/linkedin-mobile-web-breakup/)</div>
 
+<div class="credit">[evarinaldiphotography](https://www.flickr.com/photos/evarinaldiphotography/6820622585/)</div>
+
 -- img-with-caption
 
 ![Address book access](images/address-book.png)
@@ -63,11 +67,15 @@ controls: false
 
 ## &ldquo;It is a dark time for the Rebellion...&rdquo;
 
+<div class="credit">[davebass5](https://www.flickr.com/photos/davebass5/32144721124/)</div>
+
 -- leia bg-fade
 
 ## &ldquo;Help us, Browsers. You are our only hope.&rdquo;
 
--- browsers bg-fade
+<div class="credit">[jdhancock](https://www.flickr.com/photos/jdhancock/9123769012/)</div>
+
+-- browsers starfield
 
 ### Diverse these browsers are...
 
@@ -80,6 +88,8 @@ controls: false
 ### Meet The Rebellion
 
 ![PWA Dev Summit "Rebellion forces"](images/pwa-dev-summit.jpg)
+
+<div class="credit">[chrism70](https://www.flickr.com/photos/chrism70/6100411620/)</div>
 
 -- img-with-caption
 
@@ -110,6 +120,8 @@ controls: false
 </div>
 
 <div class="caption">Progressive Web Apps combine both.</div> 
+
+<div class="credit">[nukamari](https://www.flickr.com/photos/nukamari/23549285753/)</div>
 
 -- pwa-results starfield
 
@@ -159,11 +171,15 @@ controls: false
 
 <div class="caption">[Alex Russell, 2017](http://info.inspirehub.com/the-future-of-web-apps-whitepaper)</div>
 
--- mazkanata bg-fade-more quote
+<div class="credit">[evilspoon63](https://www.flickr.com/photos/evilspoon63/15899075368/)</div>
+
+-- mazkanata bg-fade extra-vignette-1 quote
 
 ## &ldquo;The longing you seek is not behind you, it is in front of you&rdquo;
 
 <div class="caption">Let's see how [our predictions from 2015](https://future-of-web-dev-2020.herokuapp.com) are going...</div>
+
+<div class="credit">[girlyseb](https://www.flickr.com/photos/girlyseb/33276785244/)</div>
 
 -- starfield
 
@@ -190,6 +206,8 @@ controls: false
 
 <div class="caption">[developers.google.com/web/updates/2017/02/improved-add-to-home-screen](https://developers.google.com/web/updates/2017/02/improved-add-to-home-screen)</div>
 
+<div class="credit">[st3f4n](https://www.flickr.com/photos/st3f4n/4194969521/)</div>
+
 -- han-cantina bg-fade
 
 ## Web Payments
@@ -210,11 +228,15 @@ controls: false
 
 <div class="caption">[bit.ly/how-to-take-web-payments](http://bit.ly/how-to-take-web-payments)</div>
 
+<div class="credit">[trollanmagician](https://www.flickr.com/photos/trollanmagician/33304510702/)</div>
+
 -- ewoks bg-fade
 
 ## And lots more...
 
 <div class="caption">Web Sharing API, Web Target, Credential Management API...</div>
+
+<div class="credit">[el_fedora](https://www.flickr.com/photos/el_fedora/4084742000/)</div>
 
 -- starfield
 
@@ -229,6 +251,8 @@ controls: false
 ![Web Assembly demo](images/web-assembly-demo.jpg)
 
 <div class="caption">[webassembly.org/demo/](http://webassembly.org/demo/)</div>
+
+<div class="credit">[patloika](https://www.flickr.com/photos/patloika/14570819278/)</div>
 
 -- two-quotes starfield
 
@@ -249,6 +273,8 @@ controls: false
 
 <div class="caption">[A-Frame Gallery](https://github.com/aframevr/a-painter/issues/99)</div>
 
+<div class="credit">[nighthawk-24](https://www.flickr.com/photos/nighthawk-24/13704681673/)</div>
+
 -- starfield
 
 ## The legacy web will become a 2D window inside the metaverse
@@ -261,9 +287,13 @@ controls: false
 
 <div class="caption">[github.com/jeromeetienne/AR.js](https://github.com/jeromeetienne/AR.js)</div>
 
+<div class="credit">[nowhere77](https://www.flickr.com/photos/nowhere77/3873268950/)</div>
+
 -- hololens extra-vignette-1 valign-bottom
 
 <div class="caption">[&ldquo;Using WebVR, Microsoft can implement it... with HoloLens&rdquo;](https://www.onmsft.com/news/microsoft-begins-work-on-webvr-support-for-edge-browser)</div>
+
+<div class="credit">[microsoftsweden](https://www.flickr.com/photos/microsoftsweden/15716942894/)</div>
 
 -- starfield
 
@@ -283,12 +313,15 @@ controls: false
 
 <div class="caption">Google's [Physical Web](https://support.google.com/chrome/answer/6239299), Mozilla's [Project Magnet](https://github.com/mozilla-magnet/magnet), Samsung's [CloseBy](https://samsunginter.net/docs/closeby.html)</div>
 
+<div class="credit">[randar](https://www.flickr.com/photos/randar/15059321301/)</div>
 
 -- wiimote bg-fade img-with-header
 
 ## Web Bluetooth
  
 ![Bluetooth pairing prompt](images/bluetooth-pairing-prompt.png)
+ 
+<div class="credit">[st3f4n](https://www.flickr.com/photos/st3f4n/3545741061/)</div>
  
 -- img-with-caption
 
@@ -302,6 +335,8 @@ controls: false
 
 <div class="caption">[bit.ly/is-browser-still-the-right-word](http://bit.ly/is-browser-still-the-right-word)</div>
 
+<div class="credit">[kalexanderson](https://www.flickr.com/photos/kalexanderson/8024368295/)</div>
+
 -- starfield
 
 > &ldquo;AI tools could help us.&rdquo;
@@ -314,17 +349,23 @@ controls: false
 
 [peteroshaughnessy.com/posts/artificial-intelligence-future-of-coding/](https://peteroshaughnessy.com/posts/artificial-intelligence-future-of-coding/)
 
+<div class="credit">[st3f4n](https://www.flickr.com/photos/st3f4n/3951143570)</div>
+
 -- img-with-caption robots bg-fade
 
 ![Marvin](images/marvin.png)
 
 <div class="caption">"Marvin connects your editor to open source knowledge in real time as you code" - Yonatan Saring</div>
 
+<div class="credit">[donsolo](https://www.flickr.com/photos/donsolo/3768623542/)</div>
+
 -- luke-shooting bg-fade quote
 
 ## &ldquo;Stay sharp. There's two more coming in.&rdquo;
 
 <div class="caption">The following ideas do not represent Samsung plans, just personal thoughts...</div>
+
+<div class="credit">[randar](https://www.flickr.com/photos/randar/14953437567/)</div>
 
 -- starfield
 
@@ -346,6 +387,8 @@ controls: false
 
 <div class="caption">Imagine booking a hotel by using your AI agent to contact a website's AI agent...</div>
 
+<div class="credit">[Phil Renaud](https://www.flickr.com/photos/59716929@N04/14768709339/)</div>
+
 -- starfield
 
 ## AI and VR merging
@@ -360,11 +403,15 @@ controls: false
 
 <div class="caption">Yoda</div>
 
+<div class="credit">[korymatthew](https://www.flickr.com/photos/korymatthew/14211839966/)</div>
+
 -- ewok-gamorrean bg-fade
 
 ## &ldquo;This time we'll do it together&rdquo;
 
 <div class="caption">Obi-Wan Kenobi</div>
+
+<div class="credit">[st3f4n](https://www.flickr.com/photos/st3f4n/5582582531/)</div>
 
 -- thanks starfield
 
