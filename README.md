@@ -66,3 +66,6 @@ commands!
 * Wiimote https://www.flickr.com/photos/st3f4n/3545741061/
 * Ewoks https://www.flickr.com/photos/el_fedora/4084742000/
 * Snowvader https://www.flickr.com/photos/st3f4n/4194969521/
+* Hololens https://www.flickr.com/photos/microsoftsweden/15716942894/
+* Robots https://www.flickr.com/photos/donsolo/3768623542/
+* Stormtroopers Googling https://www.flickr.com/photos/st3f4n/3951143570

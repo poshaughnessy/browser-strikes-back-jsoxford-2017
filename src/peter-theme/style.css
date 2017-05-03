@@ -1004,3 +1004,15 @@ h2 + .quote {
 .thanks .social h4 {
   margin-bottom: 0;
 }
+
+.slide.hololens:before {
+  background-image: url(images/hololens.png);
+}
+
+.slide.robots:before {
+  background-image: url(images/starwars/robots-donsolo.jpg);
+}
+
+.slide.stormtroopers-googling:before {
+  background-image: url(images/starwars/stormtroopersgoogling-st3f4n.jpg);
+}

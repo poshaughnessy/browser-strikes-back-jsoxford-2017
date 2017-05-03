@@ -259,6 +259,10 @@ controls: false
 
 <div class="caption">[github.com/jeromeetienne/AR.js](https://github.com/jeromeetienne/AR.js)</div>
 
+-- hololens extra-vignette-1 valign-bottom
+
+<div class="caption">[&ldquo;Using WebVR, Microsoft can implement it... with HoloLens&rdquo;](https://www.onmsft.com/news/microsoft-begins-work-on-webvr-support-for-edge-browser)</div>
+
 -- starfield
 
 ## The web will become an extension of the world around us.
@@ -278,9 +282,11 @@ controls: false
 <div class="caption">Google's [Physical Web](https://support.google.com/chrome/answer/6239299), Mozilla's [Project Magnet](https://github.com/mozilla-magnet/magnet), Samsung's [CloseBy](https://samsunginter.net/docs/closeby.html)</div>
 
 
--- wiimote bg-fade
+-- wiimote bg-fade img-with-header
 
 ## Web Bluetooth
+ 
+![Bluetooth pairing prompt](images/bluetooth-pairing-prompt.png)
  
 --
 
@@ -291,6 +297,24 @@ controls: false
 ## Is &ldquo;browser&rdquo; still the right word?
 
 <div class="caption">[bit.ly/is-browser-still-the-right-word](http://bit.ly/is-browser-still-the-right-word)</div>
+
+-- starfield
+
+> &ldquo;AI tools could help web developers.&rdquo;
+
+<div class="caption">[2020: The Future of Web Development](https://future-of-web-dev-2020.herokuapp.com)</div>
+
+-- robots quote bg-fade
+
+>&ldquo;Imagine your IDE is connected to an AI service, and polls it for suggestions every keystroke (or few). Now you can have the whole of the machine-crunchable Web behind you.&rdquo;
+
+[peteroshaughnessy.com/posts/artificial-intelligence-future-of-coding/](https://peteroshaughnessy.com/posts/artificial-intelligence-future-of-coding/)
+
+-- img-with-caption stormtroopers-googling bg-fade
+
+![Marvin](images/marvin.png)
+
+<div class="caption">"Marvin connects your editor to open source knowledge in real time as you code" - Yonatan Saring</div>
 
 -- luke-shooting bg-fade quote
 
