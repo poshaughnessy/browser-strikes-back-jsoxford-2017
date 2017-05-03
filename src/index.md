@@ -175,13 +175,33 @@ controls: false
 
 <div class="credit">[What Comes Next For The Web? - Paul Kinlan](https://www.youtube.com/watch?v=YJwrBbze_Ec)</div>
 
--- snowvader bg-fade
+-- snowvader bg-fade img-with-header four-images
 
 ## Deeper Android integration
+
+![Add to homescreen (1)](images/snapwat-android-a2h-1.png) ![Add to homescreen (2)](images/snapwat-android-a2h-2.png) ![Add to homescreen (3)](images/snapwat-android-a2h-3.jpg) ![Add to homescreen (4)](images/snapwat-android-a2h-4.png)
+
+<div class="caption">[developers.google.com/web/updates/2017/02/improved-add-to-home-screen](https://developers.google.com/web/updates/2017/02/improved-add-to-home-screen)</div>
 
 -- han-cantina bg-fade
 
 ## Web Payments
+
+<div class="left" style="width:58%; font-size:0.9em;">
+<pre style="display:block;"><code class="lang-javascript"><span class="hljs-keyword">new</span> PaymentRequest(methodData, details)
+  .show()
+  .then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">uiResult</span>) </span>{
+    processPayment(uiResult);
+  })
+  .catch(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">error</span>) </span>{
+    handlePaymentError(error);
+  });</code></pre>
+</div>
+<div class="right" style="width:38%">
+  <img alt="Payment Request example" src="images/payment-request-crop.png" style="margin:0 0 0 10px">
+</div>
+
+<div class="caption">[bit.ly/how-to-take-web-payments](http://bit.ly/how-to-take-web-payments)</div>
 
 -- stormtroopers-assembly bg-fade
 
@@ -204,6 +224,8 @@ controls: false
 
 >&ldquo;Virtual Reality (after the usual Hype Curve)&rdquo;
 
+>&ldquo;VR and AR merging&rdquo;
+
 <div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
 -- virtual-jedi bg-fade
@@ -215,12 +237,6 @@ controls: false
 --
 
 ## Star Sword Demo
-
--- starfield
-
->&ldquo;VR and AR merging&rdquo;
-
-<div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
 -- ar-helmet bg-fade
 
