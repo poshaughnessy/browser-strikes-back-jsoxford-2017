@@ -300,17 +300,17 @@ controls: false
 
 -- starfield
 
-> &ldquo;AI tools could help web developers.&rdquo;
+> &ldquo;AI tools could help us.&rdquo;
 
 <div class="caption">[2020: The Future of Web Development](https://future-of-web-dev-2020.herokuapp.com)</div>
 
--- robots quote bg-fade
+-- stormtroopers-googling quote bg-fade
 
 >&ldquo;Imagine your IDE is connected to an AI service, and polls it for suggestions every keystroke (or few). Now you can have the whole of the machine-crunchable Web behind you.&rdquo;
 
 [peteroshaughnessy.com/posts/artificial-intelligence-future-of-coding/](https://peteroshaughnessy.com/posts/artificial-intelligence-future-of-coding/)
 
--- img-with-caption stormtroopers-googling bg-fade
+-- img-with-caption robots bg-fade
 
 ![Marvin](images/marvin.png)
 
