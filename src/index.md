@@ -71,7 +71,7 @@ controls: false
 
 ### Diverse these browsers are...
 
-![Chrome](images/browsers/chrome.png) ![Safari](images/browsers/safari.png) ![UC Browser](images/browsers/uc.png) ![Firefox](images/browsers/firefox.png) ![IE](images/browsers/internet-explorer.png) ![Opera](images/browsers/opera.png) ![Samsung Internet](images/browsers/sbrowser5.4.png) ![Android](images/browsers/android.png) ![Edge](images/browsers/edge.png)
+![Chrome](images/browsers/chrome.png) ![Safari](images/browsers/safari.png) ![UC Browser](images/browsers/uc.png) ![Firefox](images/browsers/firefox.png) ![IE](images/browsers/internet-explorer.png) ![Opera](images/browsers/opera.png) ![Samsung Internet](images/browsers/sbrowser5.4.png) ![Android](images/browsers/android.png) ![Edge](images/browsers/edge.png) ![Chromium](images/browsers/chromium.png) ![Firefox Nightly](images/browsers/firefox-nightly.png) ![Carmel](images/browsers/carmel.png)
 
 <div class="caption">[bit.ly/think-you-know-the-top-browsers](http://bit.ly/think-you-know-the-top-browsers)</div>
 
@@ -157,7 +157,7 @@ controls: false
 
 ## &ldquo;The longing you seek is not behind you, it is in front of you&rdquo;
 
-<div class="caption">Let's see how [my predictions from 2015](https://future-of-web-dev-2020.herokuapp.com) are going...</div>
+<div class="caption">Let's see how [our predictions from 2015](https://future-of-web-dev-2020.herokuapp.com) are going...</div>
 
 -- starfield
 
@@ -168,7 +168,7 @@ controls: false
   </div>
 </blockquote>
 
-<div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
+<div class="caption">[2020: The Future of Web Development](https://future-of-web-dev-2020.herokuapp.com)</div>
 
 -- img-with-caption
 
@@ -204,21 +204,25 @@ controls: false
 
 <div class="caption">[bit.ly/how-to-take-web-payments](http://bit.ly/how-to-take-web-payments)</div>
 
--- stormtroopers-assembly bg-fade
-
-## Web Assembly
-
 -- ewoks bg-fade
 
 ## And lots more...
 
 <div class="caption">Web Sharing API, Web Target, Credential Management API...</div>
 
--- stormtrooper-thinking bg-fade
+-- starfield
 
-## Is &ldquo;browser&rdquo; still the right word?
+> &ldquo;JavaScript will get better. Or you can use <span class="no-word-break">$your-fave-lang</span>.&rdquo;
 
-<div class="caption">[bit.ly/is-browser-still-the-right-word](http://bit.ly/is-browser-still-the-right-word)</div>
+<div class="caption">[2020: The Future of Web Development](https://future-of-web-dev-2020.herokuapp.com)</div>
+
+-- stormtroopers-assembly bg-fade img-with-header
+
+## Web Assembly
+
+![Web Assembly demo](images/web-assembly-demo.jpg)
+
+<div class="caption">[webassembly.org/demo/](http://webassembly.org/demo/)</div>
 
 -- two-quotes starfield
 
@@ -229,7 +233,7 @@ controls: false
   </div>
 </blockquote>
 
-<div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
+<div class="caption">[2020: The Future of Web Development](https://future-of-web-dev-2020.herokuapp.com)</div>
 
 -- virtual-jedi bg-fade img-with-header
 
@@ -263,7 +267,7 @@ controls: false
 
 >&ldquo;Digital and Physical Merging&rdquo;
 
-<div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
+<div class="caption">[2020: The Future of Web Development](https://future-of-web-dev-2020.herokuapp.com)</div>
 
 -- luke-training bg-fade three-images img-with-header
 
@@ -281,6 +285,12 @@ controls: false
 --
 
 ## BB8 Demo
+
+-- stormtrooper-thinking bg-fade
+
+## Is &ldquo;browser&rdquo; still the right word?
+
+<div class="caption">[bit.ly/is-browser-still-the-right-word](http://bit.ly/is-browser-still-the-right-word)</div>
 
 -- luke-shooting bg-fade quote
 

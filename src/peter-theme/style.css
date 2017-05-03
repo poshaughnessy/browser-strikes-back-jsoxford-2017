@@ -804,6 +804,10 @@ h2 + .quote {
   background-image: url(images/github.png);
 }
 
+.no-word-break {
+  white-space: nowrap;
+}
+
 /* Slide specific styles here */
 
 #slide-1,
