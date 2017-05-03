@@ -253,10 +253,6 @@ controls: false
 
 ## The legacy web will become a 2D window inside the metaverse
 
---
-
-## Star Sword Demo
-
 -- ar-helmet bg-fade img-with-header
 
 ## WebAR
