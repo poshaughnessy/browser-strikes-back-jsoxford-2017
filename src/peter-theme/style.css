@@ -1001,8 +1001,16 @@ h2 + .quote {
   font-family: 'SF Distant Galaxy Outline', Helvetica, arial;
 }
 
+.thanks .social {
+  margin-top: 2em;
+}
+
 .thanks .social h4 {
   margin-bottom: 0;
+}
+
+.thanks .slides-link {
+  font-size: 1.3em;
 }
 
 .slide.hololens:before {

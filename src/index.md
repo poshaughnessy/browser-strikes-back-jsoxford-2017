@@ -419,8 +419,10 @@ controls: false
 
 ### And May the Fourth be with you tomorrow!
 
+<h4 class="slides-link">🌍 [bit.ly/browser-strikes-back-oxford](http://bit.ly/browser-strikes-back-oxford)</h4>
+
 <div class="social">
   <h4 class="twitter">[@poshaughnessy](https://twitter.com/poshaughnessy)</h3>
   <h4 class="twitter">[@samsunginternet](https://twitter.com/samsunginternet)</h3>
-  <h4 class="github">[github.com/samsunginternet](https://github.com/SamsungInternet/)</h3>
+  <h4 class="github">[github.com/samsunginternet](https://github.com/SamsungInternet/)</h3>  
 </div>
