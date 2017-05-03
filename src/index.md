@@ -161,17 +161,18 @@ controls: false
 
 -- starfield
 
->&ldquo;The Web will catch up on key features&rdquo;
-
->&ldquo;Web and Native will continue to blur&rdquo;
+<blockquote>
+  <div>
+    <p>&ldquo;The Web will catch up on key features&rdquo;</p>
+    <p>&ldquo;Web and Native will continue to blur&rdquo;</p>
+  </div>
+</blockquote>
 
 <div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
 -- img-with-caption
 
 ![Web nearing parity with native](images/web-native-parity.jpg)
-
-<div class="caption">The web is nearing parity...</div>
 
 <div class="credit">[What Comes Next For The Web? - Paul Kinlan](https://www.youtube.com/watch?v=YJwrBbze_Ec)</div>
 
@@ -213,40 +214,50 @@ controls: false
 
 <div class="caption">Web Sharing API, Web Target, Credential Management API...</div>
 
-
 -- stormtrooper-thinking bg-fade
 
 ## Is &ldquo;browser&rdquo; still the right word?
 
 <div class="caption">[bit.ly/is-browser-still-the-right-word](http://bit.ly/is-browser-still-the-right-word)</div>
 
--- starfield
+-- two-quotes starfield
 
->&ldquo;Virtual Reality (after the usual Hype Curve)&rdquo;
-
->&ldquo;VR and AR merging&rdquo;
+<blockquote>
+  <div>
+    <p>&ldquo;Virtual Reality to make inroads <br> (after the usual Hype Curve)&rdquo;</p>
+    <p>&ldquo;VR and AR merging&rdquo;</p>
+  </div>
+</blockquote>
 
 <div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
--- virtual-jedi bg-fade
+-- virtual-jedi bg-fade img-with-header
 
 ## WebVR
 
-<div class="caption">The legacy web will become a 2D window inside the metaverse.</div>
+![A-Painter example](images/apainter-feiss.jpg)
+
+<div class="caption">[A-Frame Gallery](https://github.com/aframevr/a-painter/issues/99)</div>
+
+-- starfield
+
+## The legacy web will become a 2D window inside the metaverse
 
 --
 
 ## Star Sword Demo
 
--- ar-helmet bg-fade
+-- ar-helmet bg-fade img-with-header
 
 ## WebAR
 
-<div class="caption">The web will become an extension of the world around us.</div>
+![AR.js](images/ar-js.png)
 
---
+<div class="caption">[github.com/jeromeetienne/AR.js](https://github.com/jeromeetienne/AR.js)</div>
 
-https://github.com/jeromeetienne/AR.js
+-- starfield
+
+## The web will become an extension of the world around us.
 
 -- starfield
 
@@ -254,9 +265,14 @@ https://github.com/jeromeetienne/AR.js
 
 <div class="caption">[Me](https://future-of-web-dev-2020.herokuapp.com)</div>
 
--- luke-training bg-fade
+-- luke-training bg-fade three-images img-with-header
 
 ## Physical Web
+
+![Physical Web](images/physical-web-google.png) ![Project Magnet](images/project-magnet.png) ![CloseBy](images/closeby.png)
+
+<div class="caption">Google's [Physical Web](https://support.google.com/chrome/answer/6239299), Mozilla's [Project Magnet](https://github.com/mozilla-magnet/magnet), Samsung's [CloseBy](https://samsunginter.net/docs/closeby.html)</div>
+
 
 -- wiimote bg-fade
 
