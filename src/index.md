@@ -383,7 +383,7 @@ controls: false
 
 -- r2d2 bg-fade
 
-## "Semantic Web" v2?
+## &ldquo;Semantic Web&rdquo; v2?
 
 <div class="caption">Imagine booking a hotel by using your AI agent to contact a website's AI agent...</div>
 
