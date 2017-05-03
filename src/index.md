@@ -371,7 +371,7 @@ controls: false
 
 ## Browsers & AI agents merging
 
--- c3po ai bg-fade-more
+-- c3po ai bg-fade
 
 #### 🗣️ &ldquo;Show me flight options for Alderaan on the 4th May&rdquo;
 
