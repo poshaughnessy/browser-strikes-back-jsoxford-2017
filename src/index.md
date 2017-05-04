@@ -396,7 +396,7 @@ controls: true
 
 ## &ldquo;Semantic Web&rdquo; v2?
 
-<div class="caption">Imagine booking a hotel by using your AI agent to contact a website's AI agent...</div>
+<div class="caption">Imagine booking a hotel by using your AI agent to contact them, via the web...</div>
 
 <div class="credit">[Phil Renaud](https://www.flickr.com/photos/59716929@N04/14768709339/)</div>
 
