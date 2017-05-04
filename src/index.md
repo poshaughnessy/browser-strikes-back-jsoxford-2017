@@ -5,7 +5,7 @@ theme: peter-theme
 themecolour: 111111
 url: https://poshaughnessy.github.io/browser-strikes-back-jsoxford-2017/
 image: https://poshaughnessy.github.io/browser-strikes-back-jsoxford-2017/images/preview.jpg
-controls: false
+controls: true
 
 -- intro starfield
 
