@@ -283,7 +283,7 @@ controls: false
 
 ## WebAR
 
-![AR.js](images/ar-js.png)
+![AR.js](images/ar-js.jpg)
 
 <div class="caption">[github.com/jeromeetienne/AR.js](https://github.com/jeromeetienne/AR.js)</div>
 
