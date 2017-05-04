@@ -245,7 +245,7 @@ controls: false
 
 ## And lots more...
 
-<div class="caption">Web Sharing API, Web Target, Credential Management API...</div>
+<div class="caption">[Web Sharing API](https://developers.google.com/web/updates/2016/10/navigator-share), Web Target, [Credential Management API](https://developer.mozilla.org/en-US/docs/Web/API/Credential_Management_API)...</div>
 
 <div class="credit">[el_fedora](https://www.flickr.com/photos/el_fedora/4084742000/)</div>
 

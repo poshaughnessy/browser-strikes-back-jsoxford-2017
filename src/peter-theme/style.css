@@ -809,6 +809,10 @@ h2 + .quote {
   white-space: nowrap;
 }
 
+.three-images img {
+  max-width: 32%;
+}
+
 .four-images img {
   max-width: 24%;
 }
