@@ -809,6 +809,10 @@ h2 + .quote {
   white-space: nowrap;
 }
 
+.four-images img {
+  max-width: 24%;
+}
+
 /* Slide specific styles here */
 
 #slide-1,
