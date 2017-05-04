@@ -615,7 +615,7 @@ body > canvas {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -2;
+  z-index: -1;
 }
 
 h1,
@@ -745,7 +745,7 @@ h2 + .quote {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: -1;
+  z-index: 0;
   display: block;
   background-color: #111;
   background-size: cover;
