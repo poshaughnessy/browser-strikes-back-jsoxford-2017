@@ -9,6 +9,8 @@ console.log('precacheList', precacheList);
 
 toolbox.precache(precacheList);
 
-toolbox.router.get('*', toolbox.networkFirst, {
+toolbox.router.get('/images/*', toolbox.cacheFirst);
+
+toolbox.router.get('/*', toolbox.networkFirst, {
   networkTimeoutSeconds: 5
 });

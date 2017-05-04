@@ -1052,6 +1052,42 @@ h2 + .quote {
   <meta property="og:url" content="https://poshaughnessy.github.io/browser-strikes-back-jsoxford-2017/" />
   <meta property="og:image" content="https://poshaughnessy.github.io/browser-strikes-back-jsoxford-2017/images/preview.jpg" />
   <meta property="og:description" content="The Future of the Web, Episode 2. Peter O'Shaughnessy's slides from JSOxford, May 2017." />
+
+  <!-- Prefetch background images otherwise browser only fetches when slide is shown? -->
+  <!-- But this is controversial as it would be a lot to download on mobile. But it's -->
+  <!-- a presentation and I want the experience to be good. On mobile, you would      -->
+  <!-- prob be unlikely to see the images in time before you switch slides otherwise. -->
+  <!-- Hmm, no, I think this would be better achieved with service worker precaching. -->
+  <!--
+  <link rel="prefetch" href="images/starwars/darth-erprofe.jpg">
+  <link rel="prefetch" href="images/iphone-nyt-scoble.jpg">
+  <link rel="prefetch" href="images/starwars/stormtrooper-evarinaldiphotography.jpg">
+  <link rel="prefetch" href="images/starwars/stormtroopers-davebass5.jpg">
+  <link rel="prefetch" href="images/starwars/leiar2d2-jdhancock.jpg">
+  <link rel="prefetch" href="images/starwars/rebellion-chrism70.jpg">
+  <link rel="prefetch" href="images/starwars/c3por2d2-nukamari.jpg">
+  <link rel="prefetch" href="images/starwars/yodaluke-randar.jpg">
+  <link rel="prefetch" href="images/starwars/mf-evilspoon63.jpg">
+  <link rel="prefetch" href="images/starwars/mazkanata-girlyseb.jpg">
+  <link rel="prefetch" href="images/starwars/hancantina-trollanmagician.jpg">
+  <link rel="prefetch" href="images/starwars/snowvader-st3f4n.jpg">
+  <link rel="prefetch" href="images/starwars/ewoks-el_fedora.jpg">
+  <link rel="prefetch" href="images/starwars/stormtroopers-patloika.jpg">
+  <link rel="prefetch" href="images/starwars/virtualjedi-nighthawk-24.jpg">
+  <link rel="prefetch" href="images/starwars/arhelmet-nowhere77.jpg">
+  <link rel="prefetch" href="images/hololens.jpg">
+  <link rel="prefetch" href="images/starwars/luketraining-randar.jpg">
+  <link rel="prefetch" href="images/starwars/wiimote-st3f4n.jpg">
+  <link rel="prefetch" href="images/starwars/stormtrooper-kalexanderson.jpg">
+  <link rel="prefetch" href="images/starwars/stormtroopersgoogling-st3f4n.jpg">
+  <link rel="prefetch" href="images/starwars/robots-donsolo.jpg">
+  <link rel="prefetch" href="images/starwars/lukeshooting-randar.jpg">
+  <link rel="prefetch" href="images/starwars/c3po-gordontarpley.jpg">
+  <link rel="prefetch" href="images/starwars/r2d2-philrenaud.jpg">
+  <link rel="prefetch" href="images/storyteller-danzajdband.jpg">
+  <link rel="prefetch" href="images/starwars/yoda-korymatthew.jpg">
+  <link rel="prefetch" href="images/starwars/ewokgamorrean-st3f4n.jpg">
+  -->
 </head>
 <body>
     <div class="progress">
@@ -1633,8 +1669,7 @@ if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
 }
 
 
-/* Service worker registration - added by Peter, removed for now */
-/*
+/* Service worker registration - added by Peter */
 if (navigator.serviceWorker) {
 
   navigator.serviceWorker.register('sw.js')
@@ -1646,7 +1681,6 @@ if (navigator.serviceWorker) {
     });
 
 }
-*/
   </script>
 </body>
 </html>
