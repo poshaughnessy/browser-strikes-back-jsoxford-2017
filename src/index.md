@@ -209,16 +209,6 @@ controls: true
 
 <div class="credit">[What Comes Next For The Web? - Paul Kinlan](https://www.youtube.com/watch?v=YJwrBbze_Ec)</div>
 
--- snowvader bg-fade img-with-header four-images
-
-## Deeper Android integration
-
-![Add to homescreen (1)](images/snapwat-android-a2h-1.png) ![Add to homescreen (2)](images/snapwat-android-a2h-2.png) ![Add to homescreen (3)](images/snapwat-android-a2h-3.jpg) ![Add to homescreen (4)](images/snapwat-android-a2h-4.png)
-
-<div class="caption">[developers.google.com/web/updates/2017/02/improved-add-to-home-screen](https://developers.google.com/web/updates/2017/02/improved-add-to-home-screen)</div>
-
-<div class="credit">[st3f4n](https://www.flickr.com/photos/st3f4n/4194969521/)</div>
-
 -- han-cantina bg-fade
 
 ## Web Payments
@@ -240,6 +230,16 @@ controls: true
 <div class="caption">[bit.ly/how-to-take-web-payments](http://bit.ly/how-to-take-web-payments)</div>
 
 <div class="credit">[trollanmagician](https://www.flickr.com/photos/trollanmagician/33304510702/)</div>
+
+-- snowvader bg-fade img-with-header four-images
+
+## Deeper Android integration
+
+![Add to homescreen (1)](images/snapwat-android-a2h-1.png) ![Add to homescreen (2)](images/snapwat-android-a2h-2.png) ![Add to homescreen (3)](images/snapwat-android-a2h-3.jpg) ![Add to homescreen (4)](images/snapwat-android-a2h-4.png)
+
+<div class="caption">[developers.google.com/web/updates/2017/02/improved-add-to-home-screen](https://developers.google.com/web/updates/2017/02/improved-add-to-home-screen)</div>
+
+<div class="credit">[st3f4n](https://www.flickr.com/photos/st3f4n/4194969521/)</div>
 
 -- ewoks bg-fade
 
