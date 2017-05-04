@@ -1,6 +1,10 @@
 title: The Browser Strikes Back
+description: The Future of the Web, Episode 2. Peter O'Shaughnessy's slides from JSOxford, May 2017.
 output: public/index.html
 theme: peter-theme
+themecolour: FFE300
+url: https://poshaughnessy.github.io/browser-strikes-back-jsoxford-2017/
+image: https://poshaughnessy.github.io/browser-strikes-back-jsoxford-2017/images/preview.jpg
 controls: false
 
 -- intro starfield
