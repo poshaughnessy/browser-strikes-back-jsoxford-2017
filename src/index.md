@@ -17,6 +17,13 @@ controls: false
 
 <div class="caption">*I know. It should be Episode 5 to go with the title. But it's Episode 2. Sorry. Please don't send angry tweets.</div>
 
+<div class="font_preload" style="opacity: 0">
+    <span style="font-family: 'SF Distant Galaxy', Arial, sans-serif;"></span>
+    <span style="font-family: 'Roboto', Arial, sans-serif;"></span>
+    <span style="font-family: 'News Cycle', Arial, sans-serif;"></span>
+    <span style="font-family: 'SF Distant Galaxy Outline', Arial, sans-serif;"></span>
+</div>
+
 -- darth bg-fade quote
 
 >&ldquo;The reality [is] that the web is in crisis. Actual, real, serious crisis.&rdquo;
