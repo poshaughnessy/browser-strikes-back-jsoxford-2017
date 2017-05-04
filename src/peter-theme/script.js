@@ -206,8 +206,7 @@ if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
 }
 
 
-/* Service worker registration - added by Peter, removed for now */
-/*
+/* Service worker registration - added by Peter */
 if (navigator.serviceWorker) {
 
   navigator.serviceWorker.register('sw.js')
@@ -219,4 +218,3 @@ if (navigator.serviceWorker) {
     });
 
 }
-*/
