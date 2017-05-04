@@ -374,7 +374,7 @@ controls: false
 
 ## &ldquo;Stay sharp. There's two more coming in.&rdquo;
 
-<div class="caption">The following ideas do not represent Samsung plans, just personal thoughts...</div>
+<div class="caption">These ideas do not represent Samsung plans, just personal thoughts...</div>
 
 <div class="credit">[randar](https://www.flickr.com/photos/randar/14953437567/)</div>
 
