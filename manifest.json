@@ -1,7 +1,7 @@
 {
-  "name": "Beyond The Browser (Codebar)",
-  "description": "Beyond the Browser slides presented at Codebar, Feb 2017",
-  "short_name": "BTB Codebar",
+  "name": "Browser Strikes Back",
+  "description": "Slides from JSOxford, May 2017",
+  "short_name": "TBSB Slides",
   "icons": [ {
     "src": "images/appicon.png",
     "sizes": "512x512",
@@ -10,6 +10,6 @@
   "start_url": "index.html",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#987FFF",
-  "background_color": "#151213"
+  "theme_color": "#111111",
+  "background_color": "#111111"
 }
